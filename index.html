@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="color-scheme" content="light"><title>Roadmap observer</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body><div id="roadmap-app" class="roadmap-app">
+ <a class="skip-link" href="#main">Skip to roadmap</a>
+ <header class="topbar"><a class="brand" href="#main"><span id="brand-mark" class="brand-mark" aria-hidden="true">R</span><span id="brand-label">Roadmap observer</span></a><a id="quest-link" href="journey.html">Quest map ↗</a><span class="runtime-state">Read-only observer</span></header>
+ <nav class="example-nav" aria-label="Example roadmap"><label for="example-control">Roadmap</label><select id="example-control"></select><span id="load-status" role="status">Loading validated snapshot…</span></nav>
+ <main id="main" tabindex="-1"><p id="load-error" role="alert" hidden></p><div class="live-controls"><span id="live-status" role="status">Dated snapshot · checking live connection…</span><button id="refresh-live" type="button">Refresh</button></div><div id="delivery-content"></div><div id="content"></div></main>
+ <footer><span id="source-mode">roadmap.snapshot/v1</span><span>No calendar forecast · No tracker writes</span></footer>
+</div><script type="module" src="src/app.js"></script></body>
+</html>

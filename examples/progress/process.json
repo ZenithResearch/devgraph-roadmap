@@ -1,0 +1,275 @@
+{
+  "schema": "roadmap.delivery-progress/v1",
+  "example_id": "process",
+  "reviewed_at": "2026-10-17T01:51:03.744346+00:00",
+  "scope": {
+    "platform": "macOS",
+    "targets": [
+      "Example Mac",
+      "Example Mac"
+    ],
+    "summary": "Synthetic demonstration data; no real project status or qualification is claimed."
+  },
+  "removed_requirements": [
+    "Demonstration only; no real qualification or private evidence.",
+    "Demonstration only; no real qualification or private evidence.",
+    "Demonstration only; no real qualification or private evidence."
+  ],
+  "milestones": [
+    {
+      "id": "runtime-core",
+      "title": "Demonstration checkpoint",
+      "state": "validated",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "project_ids": [
+        "demo-project-004"
+      ],
+      "repository_ids": [
+        "runtime"
+      ],
+      "evidence": [
+        "Demonstration only; no real qualification or private evidence."
+      ],
+      "requires": [],
+      "short_title": "Process engine"
+    },
+    {
+      "id": "service-lifecycle",
+      "title": "Demonstration checkpoint",
+      "state": "validated",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "project_ids": [
+        "demo-project-015"
+      ],
+      "repository_ids": [
+        "service"
+      ],
+      "evidence": [
+        "Demonstration only; no real qualification or private evidence."
+      ],
+      "requires": [],
+      "short_title": "Case lifecycle"
+    },
+    {
+      "id": "frank-executor",
+      "title": "Demonstration checkpoint",
+      "state": "validated",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "project_ids": [
+        "demo-project-002"
+      ],
+      "repository_ids": [
+        "frank"
+      ],
+      "evidence": [
+        "Demonstration only; no real qualification or private evidence."
+      ],
+      "requires": [],
+      "short_title": "Frank executor"
+    },
+    {
+      "id": "review-workflows",
+      "title": "Demonstration checkpoint",
+      "state": "validated",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "project_ids": [
+        "demo-project-002",
+        "demo-project-004"
+      ],
+      "repository_ids": [
+        "frank",
+        "runtime"
+      ],
+      "evidence": [
+        "Demonstration only; no real qualification or private evidence."
+      ],
+      "requires": [
+        "runtime-core",
+        "frank-executor"
+      ],
+      "short_title": "Review workflows"
+    },
+    {
+      "id": "local-composition",
+      "title": "Demonstration checkpoint",
+      "state": "validated",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "project_ids": [
+        "demo-project-003"
+      ],
+      "repository_ids": [
+        "hub"
+      ],
+      "evidence": [
+        "Demonstration only; no real qualification or private evidence."
+      ],
+      "requires": [
+        "runtime-core",
+        "service-lifecycle",
+        "frank-executor"
+      ],
+      "short_title": "Local packages"
+    },
+    {
+      "id": "roadmap-view",
+      "title": "Demonstration checkpoint",
+      "state": "validated",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "project_ids": [
+        "demo-project-003"
+      ],
+      "repository_ids": [
+        "roadmap"
+      ],
+      "evidence": [
+        "Demonstration only; no real qualification or private evidence.",
+        "Demonstration only; no real qualification or private evidence."
+      ],
+      "requires": [],
+      "short_title": "Roadmap"
+    },
+    {
+      "id": "native-issuer",
+      "title": "Demonstration checkpoint",
+      "state": "partial",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "project_ids": [
+        "demo-project-004",
+        "demo-project-002"
+      ],
+      "repository_ids": [
+        "native",
+        "wallet"
+      ],
+      "evidence": [
+        "Demonstration only; no real qualification or private evidence.",
+        "Demonstration only; no real qualification or private evidence.",
+        "Demonstration only; no real qualification or private evidence.",
+        "Demonstration only; no real qualification or private evidence.",
+        "Demonstration only; no real qualification or private evidence."
+      ],
+      "requires": [],
+      "short_title": "Native identity",
+      "status_label": "Demo: source checked"
+    },
+    {
+      "id": "native-integration",
+      "title": "Demonstration checkpoint",
+      "state": "partial",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "project_ids": [
+        "demo-project-004",
+        "demo-project-015",
+        "demo-project-002"
+      ],
+      "repository_ids": [
+        "runtime",
+        "service",
+        "frank"
+      ],
+      "evidence": [
+        "Demonstration only; no real qualification or private evidence.",
+        "Demonstration only; no real qualification or private evidence."
+      ],
+      "requires": [
+        "native-issuer",
+        "runtime-core",
+        "service-lifecycle",
+        "frank-executor"
+      ],
+      "short_title": "Command authority",
+      "status_label": "Demo: integration pending"
+    },
+    {
+      "id": "mac-install",
+      "title": "Demonstration checkpoint",
+      "state": "validated",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "project_ids": [
+        "demo-project-003"
+      ],
+      "repository_ids": [
+        "hub"
+      ],
+      "evidence": [
+        "Demonstration only; no real qualification or private evidence.",
+        "Demonstration only; no real qualification or private evidence.",
+        "Demonstration only; no real qualification or private evidence.",
+        "Demonstration only; no real qualification or private evidence."
+      ],
+      "requires": [
+        "local-composition"
+      ],
+      "short_title": "Mac installation",
+      "status_label": "Demo: installed"
+    },
+    {
+      "id": "live-provider",
+      "title": "Demonstration checkpoint",
+      "state": "pending",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "project_ids": [
+        "demo-project-002"
+      ],
+      "repository_ids": [
+        "frank"
+      ],
+      "evidence": [],
+      "requires": [
+        "native-integration",
+        "frank-executor"
+      ],
+      "short_title": "Live provider"
+    },
+    {
+      "id": "your-pilot",
+      "title": "Demonstration checkpoint",
+      "state": "pending",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "project_ids": [
+        "demo-project-004",
+        "demo-project-015",
+        "demo-project-002",
+        "demo-project-003"
+      ],
+      "repository_ids": [
+        "runtime",
+        "service",
+        "frank",
+        "hub"
+      ],
+      "evidence": [],
+      "requires": [
+        "mac-install",
+        "native-integration",
+        "live-provider",
+        "review-workflows"
+      ],
+      "short_title": "Example Mac pilot"
+    },
+    {
+      "id": "jess-install",
+      "title": "Demonstration checkpoint",
+      "state": "pending",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "project_ids": [
+        "demo-project-003"
+      ],
+      "repository_ids": [
+        "hub"
+      ],
+      "evidence": [],
+      "requires": [
+        "your-pilot"
+      ],
+      "short_title": "Second operator\u2019s setup"
+    }
+  ],
+  "next_actions": [
+    "Demonstration only; no real qualification or private evidence.",
+    "Demonstration only; no real qualification or private evidence.",
+    "Demonstration only; no real qualification or private evidence.",
+    "Demonstration only; no real qualification or private evidence.",
+    "Demonstration only; no real qualification or private evidence."
+  ]
+}

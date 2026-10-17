@@ -1,0 +1,69 @@
+{
+  "schema": "roadmap.configuration/v1",
+  "default_example": "zendo",
+  "examples": [
+    {
+      "id": "zendo",
+      "label": "Synthetic application",
+      "adapter": "zendo",
+      "roadmap": "examples/sources/zendo-roadmap.json",
+      "tokens": "examples/sources/zendo-tokens.json",
+      "source_ids": [
+        "zendo-roadmap",
+        "zendo-tokens"
+      ],
+      "branding": {
+        "label": "Synthetic application",
+        "mark": "Z",
+        "subtitle": "FICTIONAL DATA \u00b7 read-only roadmap demonstration"
+      },
+      "groups": [
+        {
+          "id": "foundation",
+          "label": "Foundation",
+          "project_ids": [
+            "demo-project-005",
+            "demo-project-006",
+            "demo-project-008"
+          ]
+        },
+        {
+          "id": "delivery",
+          "label": "Delivery",
+          "project_ids": [
+            "demo-project-012",
+            "demo-project-014",
+            "demo-project-013"
+          ]
+        },
+        {
+          "id": "operations",
+          "label": "Operations",
+          "project_ids": [
+            "demo-project-011",
+            "demo-project-007",
+            "demo-project-010",
+            "demo-project-009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "label": "Synthetic workflow",
+      "adapter": "devgraph",
+      "roadmap": "examples/sources/process-devgraph.json",
+      "evidence": "examples/sources/process-evidence.json",
+      "source_ids": [
+        "process-canonical-20261016-live-after-notes",
+        "process-evidence"
+      ],
+      "branding": {
+        "label": "Synthetic workflow",
+        "mark": "P",
+        "subtitle": "FICTIONAL DATA \u00b7 read-only roadmap demonstration"
+      },
+      "groups": []
+    }
+  ]
+}

@@ -1,0 +1,2166 @@
+{
+  "schema": "process-execution.roadmap-snapshot.v1",
+  "source": "Devgraph",
+  "observed_at": "2026-10-13T16:51:41.473800+00:00",
+  "core_task_count": 67,
+  "workflow_tracking_stale": true,
+  "production_ready": false,
+  "projects": [
+    {
+      "id": "demo-project-004",
+      "code": "RT",
+      "label": "Canonical execution",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "verified": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "remaining": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "title": "Demo Project 004",
+      "issues": [
+        {
+          "id": "demo-issue-003",
+          "title": "Demo Issue 003",
+          "dependencies": [
+            {
+              "id": "demo-issue-051",
+              "title": "Demo Issue 051"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "demo-task-014",
+              "title": "Demo Task 014",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-013",
+              "title": "Demo Task 013",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-012",
+              "title": "Demo Task 012",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-003",
+            "lead": "secS receiver authorization architect",
+            "challengers": [
+              "Adversarial security reviewer with runtime transaction expertise"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "Installed public-client claims/queries/heartbeat/complete/fail/release/effect calls verify through the exact packaged native issuer and receiver",
+              "Wrong subject/key/audience/operation/resource/request/descriptor/handler pin, expired/revoked key, replay, stale Attempt/fence and version conflict deny before mutation",
+              "Writer-lock delay with expiry/revocation reload rejects at commit; replay admission/result/events/state commit atomically",
+              "Runtime CLI/composition rejects local-dev in production and fails readiness for missing/unqualified authority"
+            ],
+            "operational_gates": [
+              "demo-task-046",
+              "demo-task-053",
+              "operator-qualified native verification binary and receiver policy",
+              "Versioned native issuer contract for exact runtime operations",
+              "Reviewed receiver policy/descriptors and operator-owned pinned verifier artifact",
+              "Production composition injects verifier instead of default-deny; service ingress independently qualifies its receiver"
+            ],
+            "risk": "Native cryptography can pass while unsigned application fields, stale receiver policy or unqualified issuer still authorize the wrong action.",
+            "title": "Demo Issue 003",
+            "project": "demo-project-004",
+            "tasks": [
+              "demo-task-014",
+              "demo-task-013",
+              "demo-task-012"
+            ],
+            "canonical_dependencies": [
+              "demo-issue-051"
+            ]
+          }
+        },
+        {
+          "id": "demo-issue-049",
+          "title": "Demo Issue 049",
+          "dependencies": [
+            {
+              "id": "demo-issue-050",
+              "title": "Demo Issue 050"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "demo-task-043",
+              "title": "Demo Task 043",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-041",
+              "title": "Demo Task 041",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-042",
+              "title": "Demo Task 042",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-049",
+            "lead": "Compiler and type-systems reviewer",
+            "challengers": [
+              "Authoring provenance and reproducibility reviewer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "Equivalent accepted sources normalize deterministically; uncertain/invalid/cyclic/type-invalid inputs cannot publish; immutable versions and retained hash fixtures reproduce; editing never repins active runs."
+            ],
+            "operational_gates": [
+              "demo-task-049",
+              "demo-task-047"
+            ],
+            "title": "Demo Issue 049",
+            "project": "demo-project-004",
+            "tasks": [
+              "demo-task-043",
+              "demo-task-041",
+              "demo-task-042"
+            ],
+            "canonical_dependencies": [
+              "demo-issue-050"
+            ]
+          }
+        },
+        {
+          "id": "demo-issue-050",
+          "title": "Demo Issue 050",
+          "dependencies": [],
+          "tasks": [
+            {
+              "id": "demo-task-049",
+              "title": "Demo Task 049",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-048",
+              "title": "Demo Task 048",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-047",
+              "title": "Demo Task 047",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-050",
+            "lead": "Runtime/domain ownership architect",
+            "challengers": [
+              "Service domain owner and public SDK consumer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "Signed independent review has no unresolved ownership conflicts; ServiceRequest/Case stay service-owned, ProcessRun/Attempts stay runtime-owned, Hub adds no canonical binding, and public consumer fixtures cover all operations."
+            ],
+            "operational_gates": [],
+            "title": "Demo Issue 050",
+            "project": "demo-project-004",
+            "tasks": [
+              "demo-task-049",
+              "demo-task-048",
+              "demo-task-047"
+            ],
+            "canonical_dependencies": []
+          }
+        },
+        {
+          "id": "demo-issue-051",
+          "title": "Demo Issue 051",
+          "dependencies": [
+            {
+              "id": "demo-issue-050",
+              "title": "Demo Issue 050"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "demo-task-051",
+              "title": "Demo Task 051",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-046",
+              "title": "Demo Task 046",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-044",
+              "title": "Demo Task 044",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-051",
+            "lead": "Versioned API/SDK compatibility reviewer",
+            "challengers": [
+              "Service and Frank consumer maintainer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "Generated client is wire-only; consumers import no runtime implementation; all operations/resource derivation and error/retry ambiguity agree; reproducible client/schema generation passes; an incompatible change is rejected by the actual CI job before publication."
+            ],
+            "operational_gates": [
+              "demo-task-047"
+            ],
+            "title": "Demo Issue 051",
+            "project": "demo-project-004",
+            "tasks": [
+              "demo-task-051",
+              "demo-task-046",
+              "demo-task-044"
+            ],
+            "canonical_dependencies": [
+              "demo-issue-050"
+            ]
+          }
+        },
+        {
+          "id": "demo-issue-052",
+          "title": "Demo Issue 052",
+          "dependencies": [
+            {
+              "id": "demo-issue-050",
+              "title": "Demo Issue 050"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "demo-task-045",
+              "title": "Demo Task 045",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-054",
+              "title": "Demo Task 054",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-055",
+              "title": "Demo Task 055",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-052",
+            "lead": "Immutable artifact/receipt integrity reviewer",
+            "challengers": [
+              "Transactional crash and evidence-chain reviewer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "Completion cannot appear before immutable retrievable output commits; artifact hashes and receipt run/pin/step/Attempt/Actor/input/output/fence/time bindings reject tampering; unsigned MVP extension remains compatible with later Castalia signatures."
+            ],
+            "operational_gates": [
+              "demo-task-047",
+              "demo-task-058",
+              "demo-task-060"
+            ],
+            "title": "Demo Issue 052",
+            "project": "demo-project-004",
+            "tasks": [
+              "demo-task-045",
+              "demo-task-054",
+              "demo-task-055"
+            ],
+            "canonical_dependencies": [
+              "demo-issue-050"
+            ]
+          }
+        },
+        {
+          "id": "demo-issue-053",
+          "title": "Demo Issue 053",
+          "dependencies": [
+            {
+              "id": "demo-issue-059",
+              "title": "Demo Issue 059"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "demo-task-052",
+              "title": "Demo Task 052",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-050",
+              "title": "Demo Task 050",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-061",
+              "title": "Demo Task 061",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-053",
+            "lead": "SRE/event-stream and projection reviewer",
+            "challengers": [
+              "Privacy reviewer and service projection consumer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "Consumers require no runtime database access; sequence/cursor/high-watermark semantics are consistent; reconstruction includes retries and unknown effects; replay converges; diagnostics disclose no credentials or sensitive raw payloads."
+            ],
+            "operational_gates": [
+              "demo-task-057",
+              "demo-task-060"
+            ],
+            "title": "Demo Issue 053",
+            "project": "demo-project-004",
+            "tasks": [
+              "demo-task-052",
+              "demo-task-050",
+              "demo-task-061"
+            ],
+            "canonical_dependencies": [
+              "demo-issue-059"
+            ]
+          }
+        },
+        {
+          "id": "demo-issue-054",
+          "title": "Demo Issue 054",
+          "dependencies": [
+            {
+              "id": "demo-issue-049",
+              "title": "Demo Issue 049"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "demo-task-060",
+              "title": "Demo Task 060",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-053",
+              "title": "Demo Task 053",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-056",
+              "title": "Demo Task 056",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-054",
+            "lead": "State-machine and scheduler reviewer",
+            "challengers": [
+              "Distributed-systems lease/fencing reviewer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "No ordinal/process-specific scheduling; claims require committed dependency outputs; exactly one current fence can mutate; retries create new Attempts; stale/expired ownership cannot commit; unknown effects visibly block recovery."
+            ],
+            "operational_gates": [
+              "demo-task-042",
+              "demo-task-058",
+              "demo-task-045"
+            ],
+            "title": "Demo Issue 054",
+            "project": "demo-project-004",
+            "tasks": [
+              "demo-task-060",
+              "demo-task-053",
+              "demo-task-056"
+            ],
+            "canonical_dependencies": [
+              "demo-issue-049"
+            ]
+          }
+        },
+        {
+          "id": "demo-issue-059",
+          "title": "Demo Issue 059",
+          "dependencies": [
+            {
+              "id": "demo-issue-050",
+              "title": "Demo Issue 050"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "demo-task-058",
+              "title": "Demo Task 058",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-059",
+              "title": "Demo Task 059",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-057",
+              "title": "Demo Task 057",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-059",
+            "lead": "Storage and transaction reviewer",
+            "challengers": [
+              "Crash/restart and operational recovery reviewer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "One writer is enforced; state/result/replay/event/output transactionality is evidenced; corruption/schema/lock errors fail closed; restore preserves ids/hashes/cursors and exact retry results; portable conformance and migration triggers are documented. PostgreSQL implementation is outside MVP."
+            ],
+            "operational_gates": [
+              "demo-task-049",
+              "demo-task-053"
+            ],
+            "title": "Demo Issue 059",
+            "project": "demo-project-004",
+            "tasks": [
+              "demo-task-058",
+              "demo-task-059",
+              "demo-task-057"
+            ],
+            "canonical_dependencies": [
+              "demo-issue-050"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "demo-project-015",
+      "code": "SM",
+      "label": "Managed obligations",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "verified": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "remaining": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "title": "Demo Project 015",
+      "issues": [
+        {
+          "id": "demo-issue-001",
+          "title": "Demo Issue 001",
+          "dependencies": [
+            {
+              "id": "demo-issue-057",
+              "title": "Demo Issue 057"
+            },
+            {
+              "id": "demo-issue-049",
+              "title": "Demo Issue 049"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "demo-task-002",
+              "title": "Demo Task 002",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-001",
+              "title": "Demo Task 001",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-003",
+              "title": "Demo Task 003",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-001",
+            "lead": "Plan/provenance and compatibility reviewer",
+            "challengers": [
+              "Runtime artifact/receipt chain reviewer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "Original run pin/history stays immutable; revision includes reason/author/prior/new pins; only trusted committed matching successful Attempt outputs carry forward; stale/unknown/incompatible inputs reject; both plans and every selected output are audit reconstructible."
+            ],
+            "operational_gates": [
+              "demo-task-065",
+              "demo-task-042",
+              "demo-task-046",
+              "demo-task-055",
+              "demo-task-063",
+              "demo-task-014"
+            ],
+            "title": "Demo Issue 001",
+            "project": "demo-project-015",
+            "tasks": [
+              "demo-task-002",
+              "demo-task-001",
+              "demo-task-003"
+            ],
+            "canonical_dependencies": [
+              "demo-issue-057",
+              "demo-issue-049"
+            ]
+          }
+        },
+        {
+          "id": "demo-issue-055",
+          "title": "Demo Issue 055",
+          "dependencies": [
+            {
+              "id": "demo-issue-057",
+              "title": "Demo Issue 057"
+            },
+            {
+              "id": "demo-issue-053",
+              "title": "Demo Issue 053"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "demo-task-005",
+              "title": "Demo Task 005",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-004",
+              "title": "Demo Task 004",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-006",
+              "title": "Demo Task 006",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-055",
+            "lead": "Event-stream/projection consistency reviewer",
+            "challengers": [
+              "Service domain/privacy and operations reviewer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "Derived progress never changes canonical Case/ProcessRun; gap/conflicting duplicate/out-of-order data visibly marks unusable; clean replay/rebuild converges with cursor/freshness/source version; no raw input/output/credentials retained; production poller uses qualified query scope."
+            ],
+            "operational_gates": [
+              "demo-task-065",
+              "demo-task-061",
+              "qualified runtime query authority and projection poller composition"
+            ],
+            "title": "Demo Issue 055",
+            "project": "demo-project-015",
+            "tasks": [
+              "demo-task-005",
+              "demo-task-004",
+              "demo-task-006"
+            ],
+            "canonical_dependencies": [
+              "demo-issue-057",
+              "demo-issue-053"
+            ]
+          }
+        },
+        {
+          "id": "demo-issue-056",
+          "title": "Demo Issue 056",
+          "dependencies": [
+            {
+              "id": "demo-issue-057",
+              "title": "Demo Issue 057"
+            },
+            {
+              "id": "demo-issue-051",
+              "title": "Demo Issue 051"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "demo-task-067",
+              "title": "Demo Task 067",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-066",
+              "title": "Demo Task 066",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-063",
+              "title": "Demo Task 063",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-056",
+            "lead": "Distributed handoff/idempotency reviewer",
+            "challengers": [
+              "Service/runtime aggregate ownership reviewer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "Approved exact pin/event/idempotency bytes remain source-owned; response loss/restart/concurrent delivery produce one ProcessRun; unknown cannot turn into failure without reconciliation; production service signing and runtime receiver permissions are qualified; no Hub binding aggregate."
+            ],
+            "operational_gates": [
+              "demo-task-065",
+              "demo-task-046",
+              "demo-task-042",
+              "qualified service-to-runtime authority and poller composition"
+            ],
+            "title": "Demo Issue 056",
+            "project": "demo-project-015",
+            "tasks": [
+              "demo-task-067",
+              "demo-task-066",
+              "demo-task-063"
+            ],
+            "canonical_dependencies": [
+              "demo-issue-057",
+              "demo-issue-051"
+            ]
+          }
+        },
+        {
+          "id": "demo-issue-057",
+          "title": "Demo Issue 057",
+          "dependencies": [],
+          "tasks": [
+            {
+              "id": "demo-task-062",
+              "title": "Demo Task 062",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-064",
+              "title": "Demo Task 064",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-065",
+              "title": "Demo Task 065",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-057",
+            "lead": "Service domain/lifecycle reviewer",
+            "challengers": [
+              "Authorization and transactional race reviewer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "Request acceptance/conversion/Case closure remain distinct and idempotent under races; no ingress bypasses validation; exact command/query authority is checked at transaction admission and after external preparation; production service ingress has qualified default-deny native verification."
+            ],
+            "operational_gates": [
+              "demo-task-049",
+              "qualified service receiver native verifier/policy"
+            ],
+            "title": "Demo Issue 057",
+            "project": "demo-project-015",
+            "tasks": [
+              "demo-task-062",
+              "demo-task-064",
+              "demo-task-065"
+            ],
+            "canonical_dependencies": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "demo-project-002",
+      "code": "FR",
+      "label": "Independent executor",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "verified": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "remaining": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "title": "Demo Project 002",
+      "issues": [
+        {
+          "id": "demo-issue-004",
+          "title": "Demo Issue 004",
+          "dependencies": [
+            {
+              "id": "demo-issue-009",
+              "title": "Demo Issue 009"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "demo-task-018",
+              "title": "Demo Task 018",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-015",
+              "title": "Demo Task 015",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-019",
+              "title": "Demo Task 019",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-004",
+            "lead": "Capability routing and delivery systems reviewer",
+            "challengers": [
+              "Adversarial actor/result correlation reviewer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "Actor selection depends on declared capabilities rather than ordinal process steps",
+              "Only exact integration/account/room/actor/Attempt/fence/effect binding can authorize completion",
+              "Concurrent dispatch has one admitted winner; retries/reconnects do not add an Attempt or repeat effect",
+              "Heartbeat loss cancels local supervision, delayed results cannot reactivate retired work and cursor cannot advance past unauthorized evidence"
+            ],
+            "operational_gates": [
+              "demo-issue-005",
+              "demo-issue-006",
+              "Real provider qualification for each enabled integration"
+            ],
+            "risk": "A correctly correlated transport reply remains unauthoritative until the native result verifier validates it.",
+            "title": "Demo Issue 004",
+            "project": "demo-project-002",
+            "tasks": [
+              "demo-task-018",
+              "demo-task-015",
+              "demo-task-019"
+            ],
+            "canonical_dependencies": [
+              "demo-issue-009"
+            ]
+          }
+        },
+        {
+          "id": "demo-issue-005",
+          "title": "Demo Issue 005",
+          "dependencies": [
+            {
+              "id": "demo-issue-003",
+              "title": "Demo Issue 003"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "demo-task-024",
+              "title": "Demo Task 024",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-030",
+              "title": "Demo Task 030",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-017",
+              "title": "Demo Task 017",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-005",
+            "lead": "Castalia Wallet custody and service-identity architect",
+            "challengers": [
+              "secS least-privilege and result-attestation reviewer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "Public subject/key identifiers and custody/rotation ADR identify implemented native interfaces; no raw key in Frank configuration/environment/logs",
+              "Qualified native issuer signs only admitted exact runtime intent and fresh session/nonce/expiry, not arbitrary bytes",
+              "Native result verifier binds authenticated attesting actor/connector, output digest, exact retained work/Attempt/fence/effect and outcome; Matrix/Hermes provenance alone denies",
+              "Real revocation, key rotation with stable subject, wrong bindings, replay and missing authority deny end to end; historical attempts/effects remain verifiable",
+              "Shipped production entry point injects qualified ports and runtime independently authenticates/authorizes every mutation"
+            ],
+            "operational_gates": [
+              "Supported native identity provisioning interface",
+              "Bounded unattended service issuance contract",
+              "Native authoritative result verification/signing-party contract",
+              "Installed artifact qualification",
+              "Receiver permissions and production composition"
+            ],
+            "risk": "Provisioning an identity alone does not supply unattended execution or a trustworthy result verifier; reusing the retired Devgraph bridge would preserve an unsupported authority path.",
+            "title": "Demo Issue 005",
+            "project": "demo-project-002",
+            "tasks": [
+              "demo-task-024",
+              "demo-task-030",
+              "demo-task-017"
+            ],
+            "canonical_dependencies": [
+              "demo-issue-003"
+            ]
+          }
+        },
+        {
+          "id": "demo-issue-006",
+          "title": "Demo Issue 006",
+          "dependencies": [
+            {
+              "id": "demo-issue-011",
+              "title": "Demo Issue 011"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "demo-task-021",
+              "title": "Demo Task 021",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-022",
+              "title": "Demo Task 022",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-020",
+              "title": "Demo Task 020",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-006",
+            "lead": "Distributed recovery and idempotency specialist",
+            "challengers": [
+              "Operator reconciliation and evidence-retention reviewer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "One versioned effect identity is shared by core, adapters and runtime",
+              "Restart distinguishes intent/not-started/unknown/acknowledged/succeeded/committed/failed",
+              "Crash before send, after external commit and before/after output/runtime commit never silently repeats a non-idempotent effect",
+              "Success-with-lost-output either recovers verifiable original output under the reviewed contract or remains actionable and blocked",
+              "Revoked operator/expired Attempt cannot clear unknown effects or rewrite historical output/fence evidence"
+            ],
+            "operational_gates": [
+              "Real provider idempotency/reconciliation semantics",
+              "Reviewed success-with-lost-output recovery/carry-forward contract",
+              "Native command and result authorization for recovery"
+            ],
+            "risk": "Fail-closed unknown effects are safe but can leave delivery permanently stranded without a defined recovery contract.",
+            "title": "Demo Issue 006",
+            "project": "demo-project-002",
+            "tasks": [
+              "demo-task-021",
+              "demo-task-022",
+              "demo-task-020"
+            ],
+            "canonical_dependencies": [
+              "demo-issue-011"
+            ]
+          }
+        },
+        {
+          "id": "demo-issue-009",
+          "title": "Demo Issue 009",
+          "dependencies": [
+            {
+              "id": "demo-issue-011",
+              "title": "Demo Issue 011"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "demo-task-025",
+              "title": "Demo Task 025",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-026",
+              "title": "Demo Task 026",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-027",
+              "title": "Demo Task 027",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-023",
+              "title": "Demo Task 023",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-009",
+            "lead": "Provider integration and plugin architecture reviewer",
+            "challengers": [
+              "Credential privacy and hostile input reviewer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "Configuration-only plugin loading works without core provider imports",
+              "Real Matrix reconnect/replay gaps/redaction/account-room mismatch and transaction ID behavior pass",
+              "Real Hermes capability discovery/model output typing/session correlation/restart/cancellation and authorized results pass",
+              "Missing credentials, unavailable SDK, unsupported encryption and malformed/hostile outputs fail closed without sensitive logs"
+            ],
+            "operational_gates": [
+              "Exact reviewed Matrix homeserver/account/room and Hermes SDK/model/provider configuration",
+              "Native result verification contract",
+              "Connector health, restart and redaction qualification"
+            ],
+            "risk": "Deterministic mocks conceal provider persistence and credential behavior; E2EE is currently explicitly unsupported.",
+            "title": "Demo Issue 009",
+            "project": "demo-project-002",
+            "tasks": [
+              "demo-task-025",
+              "demo-task-026",
+              "demo-task-027",
+              "demo-task-023"
+            ],
+            "canonical_dependencies": [
+              "demo-issue-011"
+            ]
+          }
+        },
+        {
+          "id": "demo-issue-011",
+          "title": "Demo Issue 011",
+          "dependencies": [
+            {
+              "id": "demo-issue-003",
+              "title": "Demo Issue 003"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "demo-task-028",
+              "title": "Demo Task 028",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-016",
+              "title": "Demo Task 016",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-029",
+              "title": "Demo Task 029",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-011",
+            "lead": "Executor SDK and distributed systems reviewer",
+            "challengers": [
+              "Runtime ownership and lease/fencing reviewer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "Public registration and work discovery succeeds for only the authenticated owned Actor",
+              "Claim/heartbeat/release/fail/distinct retry work across installed processes; stale or expired fence cannot complete",
+              "Frank replacement executor uses identical contract without runtime changes",
+              "Lost acknowledgements reconcile exact saved bytes with fresh authority, never version rebase"
+            ],
+            "operational_gates": [
+              "Native Frank command authority available for production admission",
+              "Packaged public SDK compatibility evidence"
+            ],
+            "risk": "Transport success or copied schemas can conceal missing real authorization and actor ownership checks.",
+            "title": "Demo Issue 011",
+            "project": "demo-project-002",
+            "tasks": [
+              "demo-task-028",
+              "demo-task-016",
+              "demo-task-029"
+            ],
+            "canonical_dependencies": [
+              "demo-issue-003"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "demo-project-003",
+      "code": "HB",
+      "label": "Composition & migration",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "verified": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "remaining": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "title": "Demo Project 003",
+      "issues": [
+        {
+          "id": "demo-issue-002",
+          "title": "Demo Issue 002",
+          "dependencies": [
+            {
+              "id": "demo-issue-013",
+              "title": "Demo Issue 013"
+            },
+            {
+              "id": "demo-issue-006",
+              "title": "Demo Issue 006"
+            },
+            {
+              "id": "demo-issue-005",
+              "title": "Demo Issue 005"
+            },
+            {
+              "id": "demo-issue-054",
+              "title": "Demo Issue 054"
+            },
+            {
+              "id": "demo-issue-052",
+              "title": "Demo Issue 052"
+            },
+            {
+              "id": "demo-issue-001",
+              "title": "Demo Issue 001"
+            },
+            {
+              "id": "demo-issue-055",
+              "title": "Demo Issue 055"
+            },
+            {
+              "id": "demo-issue-004",
+              "title": "Demo Issue 004"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "demo-task-035",
+              "title": "Demo Task 035",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-036",
+              "title": "Demo Task 036",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-034",
+              "title": "Demo Task 034",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-002",
+            "lead": "Independent provider-consumer contract reviewer",
+            "challengers": [
+              "SRE crash/recovery reviewer",
+              "Security exact-authority and replay reviewer",
+              "Release artifact reviewer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence.",
+              "Demonstration only; no real qualification or private evidence.",
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "One documented artifact-only command and exact tuple manifest",
+              "Provider/consumer mismatch negatives",
+              "Canonical run/output/receipt agreement after every injected crash",
+              "Native command/result revocation/rotation/audience/replay negatives",
+              "No duplicated external effects or transport-provenance authorization",
+              "Independent test reviewer signoff with source/artifact identity and skip disclosure",
+              "Supported artifacts execute the matrix from one command; state/receipts agree after faults; no duplicate effect occurs and no delivery identity grants authority. Any fixture-only or source-only report remains visibly below production qualification."
+            ],
+            "operational_gates": [
+              "Full production-equivalent integration receipts wait for deployable runtime/service authority entrypoints and pollers, qualified native issuer/receiver/result verifier, Frank identity, exact artifacts and real adapter qualification. Development-only reviewer and harness work can proceed now."
+            ],
+            "title": "Demo Issue 002",
+            "project": "demo-project-003",
+            "tasks": [
+              "demo-task-035",
+              "demo-task-036",
+              "demo-task-034"
+            ],
+            "canonical_dependencies": [
+              "demo-issue-013",
+              "demo-issue-006",
+              "demo-issue-005",
+              "demo-issue-054",
+              "demo-issue-052",
+              "demo-issue-001",
+              "demo-issue-055",
+              "demo-issue-004"
+            ]
+          }
+        },
+        {
+          "id": "demo-issue-012",
+          "title": "Demo Issue 012",
+          "dependencies": [
+            {
+              "id": "demo-issue-002",
+              "title": "Demo Issue 002"
+            },
+            {
+              "id": "demo-issue-058",
+              "title": "Demo Issue 058"
+            },
+            {
+              "id": "demo-issue-048",
+              "title": "Demo Issue 048"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "demo-task-008",
+              "title": "Demo Task 008",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-010",
+              "title": "Demo Task 010",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-009",
+              "title": "Demo Task 009",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-012",
+            "lead": "Release and migration reviewer",
+            "challengers": [
+              "SRE reconciliation/rollback reviewer",
+              "Domain data/receipt preservation reviewer",
+              "Independent external-effect safety reviewer",
+              "Native authority reviewer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence.",
+              "Demonstration only; no real qualification or private evidence.",
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "Read-only inventory and per-Case eligibility dispositions",
+              "Reconciliation ledger with zero unresolved material divergence or explicit owner acceptance",
+              "Exact config/artifact/process pin manifest",
+              "Actual ingress before/after flag trace",
+              "Concurrent admission and in-flight runtime-owner traces",
+              "Output/receipt/effect preservation hashes and zero repeat-send evidence",
+              "Operator-reviewed explicit go/no-go decision and rollback/runbook",
+              "Only evidence-eligible work migrates; actual ingress honors the reversible composition flag; retained old records and runtime-owned in-flight work remain recoverable; rollback preserves outputs and cannot repeat effects; exact qualification and reconciliation evidence supports explicit go/no-go."
+            ],
+            "operational_gates": [
+              "Live shadow/migration/cutover waits for all three canonical upstream Issues plus exact deployed artifact/native authority/provider qualification and a reconciled live inventory. No new admission or grant is authorized by this planning report."
+            ],
+            "title": "Demo Issue 012",
+            "project": "demo-project-003",
+            "tasks": [
+              "demo-task-008",
+              "demo-task-010",
+              "demo-task-009"
+            ],
+            "canonical_dependencies": [
+              "demo-issue-002",
+              "demo-issue-058",
+              "demo-issue-048"
+            ]
+          }
+        },
+        {
+          "id": "demo-issue-013",
+          "title": "Demo Issue 013",
+          "dependencies": [
+            {
+              "id": "demo-issue-056",
+              "title": "Demo Issue 056"
+            },
+            {
+              "id": "demo-issue-011",
+              "title": "Demo Issue 011"
+            },
+            {
+              "id": "demo-issue-009",
+              "title": "Demo Issue 009"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "demo-task-031",
+              "title": "Demo Task 031",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-032",
+              "title": "Demo Task 032",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-033",
+              "title": "Demo Task 033",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-013",
+            "lead": "Release and reproducible-build reviewer",
+            "challengers": [
+              "Ownership/contract reviewer",
+              "SRE configuration and secret-delivery reviewer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence.",
+              "Demonstration only; no real qualification or private evidence.",
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "Artifact manifest with build/input/output digests and toolchain",
+              "Clean package/image build log",
+              "Package-only compatibility and startup report",
+              "Secret/redaction and network negative tests",
+              "Owner-specific health degradation and recovery drill",
+              "Hub starts and supervises the compatible components with validated immutable pins and external secret references, holds no business aggregates or credentials, rejects mismatches before startup, and reports the failing owner and recovery path. Production activation awaits the separate native/provider gates."
+            ],
+            "operational_gates": [
+              "Production entrypoint authority injection",
+              "Qualified secret/credential delivery",
+              "Qualified runtime/service delivery pollers",
+              "Exact built artifacts start and fail compatibility checks as intended"
+            ],
+            "title": "Demo Issue 013",
+            "project": "demo-project-003",
+            "tasks": [
+              "demo-task-031",
+              "demo-task-032",
+              "demo-task-033"
+            ],
+            "canonical_dependencies": [
+              "demo-issue-056",
+              "demo-issue-011",
+              "demo-issue-009"
+            ]
+          }
+        },
+        {
+          "id": "demo-issue-048",
+          "title": "Demo Issue 048",
+          "dependencies": [],
+          "tasks": [
+            {
+              "id": "demo-task-039",
+              "title": "Demo Task 039",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-038",
+              "title": "Demo Task 038",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-037",
+              "title": "Demo Task 037",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-048",
+            "lead": "Legacy containment and failure-semantics reviewer",
+            "challengers": [
+              "SRE lease/fencing/recovery reviewer",
+              "Independent DAG validator reviewer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence.",
+              "Demonstration only; no real qualification or private evidence.",
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "Independent source review with file/commit hashes",
+              "Containment suite report with zero unexpected skips",
+              "Crash/restart and stale-fence traces",
+              "Changelog/commit reviewed when implementation is committed",
+              "All three existing Task acceptance conditions hold for the reviewed artifact; regression/failure fixtures fail closed; restarted execution cannot lose active work or reuse failed/blocked attempt identity. This does not approve live migration."
+            ],
+            "operational_gates": [],
+            "title": "Demo Issue 048",
+            "project": "demo-project-003",
+            "tasks": [
+              "demo-task-039",
+              "demo-task-038",
+              "demo-task-037"
+            ],
+            "canonical_dependencies": []
+          }
+        },
+        {
+          "id": "demo-issue-058",
+          "title": "Demo Issue 058",
+          "dependencies": [
+            {
+              "id": "demo-issue-049",
+              "title": "Demo Issue 049"
+            }
+          ],
+          "tasks": [
+            {
+              "id": "demo-task-040",
+              "title": "Demo Task 040",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-011",
+              "title": "Demo Task 011",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            },
+            {
+              "id": "demo-task-068",
+              "title": "Demo Task 068",
+              "acceptance": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "qualification": "Synthetic demonstration data; no real project status or qualification is claimed.",
+              "files": [
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json",
+                "example/demo-evidence.json"
+              ],
+              "progress": "not_started",
+              "stage": "backlog"
+            }
+          ],
+          "review_plan": {
+            "id": "demo-issue-058",
+            "lead": "Independent semantic-equivalence and process-resource reviewer",
+            "challengers": [
+              "Domain owner for personal review outputs",
+              "Generic runtime/DAG reviewer",
+              "Effect-safety reviewer"
+            ],
+            "next_actions": [
+              "Demonstration only; no real qualification or private evidence.",
+              "Demonstration only; no real qualification or private evidence.",
+              "Demonstration only; no real qualification or private evidence."
+            ],
+            "exit_evidence": [
+              "Published resource/hash receipt",
+              "Independent development SOP run and receipt DAG",
+              "Fresh greenfield vs retained legacy comparison report",
+              "Every divergence categorized with owner decision",
+              "Zero external sends and no hidden handler/process scheduler branch",
+              "Publication hashes remain stable; a second non-service SOP executes generically; every divergence in actual independent greenfield review execution is classified and approved without process-specific scheduler logic. Production semantic equivalence additionally requires qualified real integrations."
+            ],
+            "operational_gates": [
+              "Frank capability routing and IntegrationAdapter contract for independent handlers",
+              "Runtime immutable output/receipt behavior",
+              "Owner-approved field/artifact/failure normalization",
+              "Authority-qualified handlers only when leaving effect-disabled local mode"
+            ],
+            "title": "Demo Issue 058",
+            "project": "demo-project-003",
+            "tasks": [
+              "demo-task-040",
+              "demo-task-011",
+              "demo-task-068"
+            ],
+            "canonical_dependencies": [
+              "demo-issue-049"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "completion_plan": {
+    "issues_reviewed": 22,
+    "issue_edges": 33,
+    "cutover_coverage": 22,
+    "gates": [
+      {
+        "id": "native-service-authority",
+        "owners": [
+          "demo-issue-003",
+          "demo-issue-005",
+          "demo-issue-057",
+          "demo-issue-056"
+        ],
+        "requires": [],
+        "action": "Implement supported native service identity provisioning and a bounded unattended issuer; qualify exact runtime commands, service ingress, service handoff/query scope, native result attestation, receiver policy, replay and rotation/revocation. Preserve existing human Wallet fresh-consent behavior.",
+        "evidence": "Exact native artifact/identity/policy manifest; synthetic custody qualification first; end-to-end positive/negative and revocation/rotation traces; no raw keys or generic signer in clients."
+      },
+      {
+        "id": "production-entrypoints",
+        "owners": [
+          "demo-issue-003",
+          "demo-issue-057",
+          "demo-issue-056",
+          "demo-issue-055",
+          "demo-issue-013"
+        ],
+        "requires": [
+          "native-service-authority"
+        ],
+        "action": "Implement operator-configured runtime native verification, service native ingress verification, public SDK handoff and bounded outbox/projection pollers in actual component-owned entrypoints. Qualify fail-closed readiness and restart.",
+        "evidence": "Installed-process command/query/delivery/rebuild/restart traces with separate stores, pinned native helpers and owner-specific degraded readiness."
+      },
+      {
+        "id": "immutable-artifacts-and-ci",
+        "owners": [
+          "demo-issue-051",
+          "demo-issue-013",
+          "demo-issue-002"
+        ],
+        "requires": [],
+        "action": "Build and verify compatible immutable native macOS packages and resources, pinned toolchains and generated clients for the initial two-Mac release. Docker/Linux images are deferred packaging work; reject incompatible component combinations.",
+        "evidence": "Reviewed artifact/source hashes, repeatable direct Mac installation and compatibility rejection, supported Mac release checks and artifact-only integration. VM and Docker execution are not prerequisites for this release."
+      },
+      {
+        "id": "independent-handlers",
+        "owners": [
+          "demo-issue-058"
+        ],
+        "requires": [],
+        "action": "Implement independent capability-selected personal-review handlers and execute the non-service development SOP with external effects disabled. Compare freshly computed outputs and failures to frozen legacy inputs.",
+        "evidence": "Independent greenfield run/receipt DAG, source provenance/process hashes, categorized divergence ledger and zero-send proof. Captured expected outputs cannot serve as new handler results."
+      },
+      {
+        "id": "providers-and-effect-recovery",
+        "owners": [
+          "demo-issue-009",
+          "demo-issue-004",
+          "demo-issue-006"
+        ],
+        "requires": [
+          "native-service-authority"
+        ],
+        "action": "Qualify each enabled Matrix/Hermes provider and result verifier separately. Resolve supported encryption/session/idempotency/lookup scope and a validated success-with-lost-output recovery contract; unknown outcomes remain actionable and blocked.",
+        "evidence": "Pinned provider configuration/SDK, real restart/reconnect/cancellation and hostile-result traces, no sensitive logs, after-send/output-loss fault receipts, exact recovery evidence without resend."
+      },
+      {
+        "id": "installed-integration",
+        "owners": [
+          "demo-issue-002"
+        ],
+        "requires": [
+          "production-entrypoints",
+          "immutable-artifacts-and-ci",
+          "providers-and-effect-recovery"
+        ],
+        "action": "Execute supported artifact tuple with native authority and real enabled adapters; replay concurrency, crash/restart, output/receipt, handoff, revision, projection and effect drills.",
+        "evidence": "One documented command, exact installed manifest, disclosed skips, canonical state/receipt agreement after every fault, command/result negative tests and zero duplicate sends."
+      },
+      {
+        "id": "actual-cutover-and-rollback",
+        "owners": [
+          "demo-issue-012"
+        ],
+        "requires": [
+          "installed-integration",
+          "independent-handlers"
+        ],
+        "action": "Prepare read-only inventory with validated contracts/hashes/receipts/leases/effects; implement actual new-admission routing/config application; reconcile shadow and stage concurrent cutover/rollback preserving runtime-owned in-flight work.",
+        "evidence": "Per-Case dispositions and divergence decisions, real ingress before/after switch, output/receipt/effect preservation hashes, zero repeat sends and explicit operator go/no-go."
+      },
+      {
+        "id": "devgraph-workflow-qualification",
+        "owners": [
+          "demo-initiative-002"
+        ],
+        "requires": [],
+        "action": "Qualify the exact generic Wallet/secS bundle on macOS through its installed browser/terminal paths. A VM is optional test infrastructure, not a required gate condition. After supported paths qualify, use current scoped authority for canonical reviews/transitions. Generic migration qualification is separate from the two-Mac service pilot.",
+        "evidence": "Installed native release-gate report, peer review, active current grant, authenticated requirement/review/transition receipts and final canonical readback. This gate blocks truthful tracker completion; it does not block read-only review or safe local implementation."
+      }
+    ],
+    "followup": {
+      "id": "Task/demo-task-007",
+      "lead": "Frontend architecture and reusable-package reviewer",
+      "challengers": [
+        "Devgraph ontology/provenance reviewer",
+        "Accessibility and responsive UI reviewer",
+        "Deterministic rollup/data-contract reviewer"
+      ],
+      "dependencies": "Independent of process execution production authority and original 67 Tasks. Source extraction needs current Zendo roadmap-ui; authenticated refresh is optional and waits for ordinary read authority, never browser credentials.",
+      "ready_work": [
+        "Extract root-scoped Zendo styles/components and data schema into a new repo",
+        "Separate source adapters from generic renderer and configure branding/grouping",
+        "Add Zendo and demo-initiative-002 read-only examples using frozen canonical snapshots",
+        "Preserve evidence/canonical-stage/production distinction and absent-estimate semantics",
+        "Add deterministic rollup and snapshot-validation tests; accessible keyboard and 320px responsive browser QA; local build/preview/refresh docs"
+      ],
+      "receipts": [
+        "Independent package renders both examples with no product-specific renderer branches",
+        "Reconciled source counts/status/archive/dependencies and snapshot provenance",
+        "No key/token/private data in browser bundle",
+        "Typecheck/build and deterministic data tests",
+        "Keyboard/screen-reader/responsive QA against Zendo presentation"
+      ],
+      "completion": "Independent reusable repo renders both roadmaps from adapters/configuration, matches Zendo style and source provenance, validates counts/status and documents safe Devgraph refresh. Repository does not exist yet."
+    },
+    "review_scope": "Planning complete; implementation signoff pending"
+  }
+}

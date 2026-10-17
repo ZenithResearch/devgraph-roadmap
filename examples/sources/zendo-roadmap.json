@@ -1,0 +1,3284 @@
+{
+  "schema": "zendo.roadmap/v2",
+  "as_of": "2026-09-25",
+  "ontology": {
+    "authority": "Devgraph",
+    "release": "v0.6.0",
+    "bundle_digest": "11d670a57b2052b4de00509559d081b524bf953c6da2544a25f33976857f8f4f",
+    "compatibility_mode": "additive",
+    "work_kinds": [
+      "Initiative",
+      "Project",
+      "Issue",
+      "Task"
+    ],
+    "containment_predicate": "CONTAINS",
+    "artifact_predicate": "HAS_ARTIFACT",
+    "blocker_predicate": "BLOCKS",
+    "status_values": [
+      "draft",
+      "review",
+      "accepted",
+      "archived"
+    ]
+  },
+  "estimation": {
+    "unit": "engineering_hours",
+    "method": "three_point",
+    "points_method": "fibonacci_relative_effort",
+    "points_scale": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      13,
+      21
+    ],
+    "points_note": "Points capture relative complexity and uncertainty. The initial calibration uses likely hours as a baseline and may be revised independently when execution evidence changes risk.",
+    "progress_rule": "Only likely hours on accepted Tasks with Artifact evidence earn progress.",
+    "calendar_note": "Effort is not a calendar forecast. Parallel work, external access, review, and evidence gates change elapsed time.",
+    "focused_hours_per_engineer_week": 30
+  },
+  "initiative": {
+    "id": "demo-initiative-001",
+    "kind": "Initiative",
+    "title": "Demo Initiative 001",
+    "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+    "status": "review",
+    "priority": 5,
+    "projects": [
+      {
+        "id": "demo-project-005",
+        "kind": "Project",
+        "sequence": 0,
+        "delivery_label": "CLI operator surface",
+        "title": "Demo Project 005",
+        "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "status": "review",
+        "priority": 5,
+        "gate": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "gate_status": "open",
+        "issues": [
+          {
+            "id": "demo-issue-016",
+            "kind": "Issue",
+            "title": "Demo Issue 016",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "accepted",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-075",
+                "kind": "Task",
+                "title": "Demo Task 075",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 20,
+                  "likely": 32,
+                  "pessimistic": 48
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-003",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-015",
+            "kind": "Issue",
+            "title": "Demo Issue 015",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "draft",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-074",
+                "kind": "Task",
+                "title": "Demo Task 074",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 32,
+                  "likely": 52,
+                  "pessimistic": 80
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-003",
+                  "demo-artifact-044",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-017",
+            "kind": "Issue",
+            "title": "Demo Issue 017",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "draft",
+            "priority": 4,
+            "tasks": [
+              {
+                "id": "demo-task-076",
+                "kind": "Task",
+                "title": "Demo Task 076",
+                "status": "draft",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 32,
+                  "likely": 56,
+                  "pessimistic": 96
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-003",
+                  "demo-artifact-034",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-001",
+                  "demo-blocker-008"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "demo-project-006",
+        "kind": "Project",
+        "sequence": 1,
+        "delivery_label": "Contract evidence",
+        "title": "Demo Project 006",
+        "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "status": "review",
+        "priority": 5,
+        "gate": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "gate_status": "open",
+        "issues": [
+          {
+            "id": "demo-issue-037",
+            "kind": "Issue",
+            "title": "Demo Issue 037",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "draft",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-109",
+                "kind": "Task",
+                "title": "Demo Task 109",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 6,
+                  "likely": 12,
+                  "pessimistic": 24
+                },
+                "estimate_points": 1,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-072",
+                "kind": "Task",
+                "title": "Demo Task 072",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 8,
+                  "likely": 16,
+                  "pessimistic": 32
+                },
+                "estimate_points": 2,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-038",
+            "kind": "Issue",
+            "title": "Demo Issue 038",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "draft",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-090",
+                "kind": "Task",
+                "title": "Demo Task 090",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 8,
+                  "likely": 16,
+                  "pessimistic": 32
+                },
+                "estimate_points": 2,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-003"
+                ]
+              },
+              {
+                "id": "demo-task-073",
+                "kind": "Task",
+                "title": "Demo Task 073",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 24,
+                  "likely": 40,
+                  "pessimistic": 64
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-003"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-029",
+            "kind": "Issue",
+            "title": "Demo Issue 029",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "accepted",
+            "priority": 4,
+            "tasks": [
+              {
+                "id": "demo-task-070",
+                "kind": "Task",
+                "title": "Demo Task 070",
+                "status": "accepted",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 18,
+                  "likely": 28,
+                  "pessimistic": 40
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-001",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-083",
+                "kind": "Task",
+                "title": "Demo Task 083",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 24,
+                  "likely": 40,
+                  "pessimistic": 64
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-028",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-019",
+            "kind": "Issue",
+            "title": "Demo Issue 019",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "review",
+            "priority": 4,
+            "tasks": [
+              {
+                "id": "demo-task-121",
+                "kind": "Task",
+                "title": "Demo Task 121",
+                "status": "accepted",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 12,
+                  "likely": 20,
+                  "pessimistic": 32
+                },
+                "estimate_points": 3,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-044",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-079",
+                "kind": "Task",
+                "title": "Demo Task 079",
+                "status": "draft",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 20,
+                  "likely": 32,
+                  "pessimistic": 48
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "demo-project-008",
+        "kind": "Project",
+        "sequence": 2,
+        "delivery_label": "Desktop foundation",
+        "title": "Demo Project 008",
+        "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "status": "review",
+        "priority": 5,
+        "gate": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "gate_status": "open",
+        "issues": [
+          {
+            "id": "demo-issue-032",
+            "kind": "Issue",
+            "title": "Demo Issue 032",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "review",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-141",
+                "kind": "Task",
+                "title": "Demo Task 141",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 24,
+                  "likely": 36,
+                  "pessimistic": 56
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-063",
+                  "demo-artifact-064",
+                  "demo-artifact-065",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-136",
+                "kind": "Task",
+                "title": "Demo Task 136",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 18,
+                  "likely": 28,
+                  "pessimistic": 44
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-063",
+                  "demo-artifact-064",
+                  "demo-artifact-065",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-120",
+                "kind": "Task",
+                "title": "Demo Task 120",
+                "status": "review",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 20,
+                  "likely": 32,
+                  "pessimistic": 56
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-061",
+                  "demo-artifact-062",
+                  "demo-artifact-060",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-008"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-020",
+            "kind": "Issue",
+            "title": "Demo Issue 020",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "review",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-107",
+                "kind": "Task",
+                "title": "Demo Task 107",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 16,
+                  "likely": 24,
+                  "pessimistic": 36
+                },
+                "estimate_points": 3,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-009",
+                  "demo-artifact-010",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-140",
+                "kind": "Task",
+                "title": "Demo Task 140",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 20,
+                  "likely": 32,
+                  "pessimistic": 52
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-057",
+                  "demo-artifact-058",
+                  "demo-artifact-064",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-114",
+                "kind": "Task",
+                "title": "Demo Task 114",
+                "status": "draft",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 16,
+                  "likely": 24,
+                  "pessimistic": 40
+                },
+                "estimate_points": 3,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-007"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-033",
+            "kind": "Issue",
+            "title": "Demo Issue 033",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "review",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-108",
+                "kind": "Task",
+                "title": "Demo Task 108",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 20,
+                  "likely": 32,
+                  "pessimistic": 48
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-035",
+                  "demo-artifact-002",
+                  "demo-artifact-064",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-094",
+                "kind": "Task",
+                "title": "Demo Task 094",
+                "status": "accepted",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 12,
+                  "likely": 20,
+                  "pessimistic": 32
+                },
+                "estimate_points": 3,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-045",
+                  "demo-artifact-004",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-069",
+                "kind": "Task",
+                "title": "Demo Task 069",
+                "status": "draft",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 18,
+                  "likely": 28,
+                  "pessimistic": 44
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-003"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-041",
+            "kind": "Issue",
+            "title": "Demo Issue 041",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "review",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-087",
+                "kind": "Task",
+                "title": "Demo Task 087",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 24,
+                  "likely": 40,
+                  "pessimistic": 64
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-019",
+                  "demo-artifact-020",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-080",
+                "kind": "Task",
+                "title": "Demo Task 080",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 24,
+                  "likely": 40,
+                  "pessimistic": 72
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-008",
+                  "demo-artifact-007",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-086",
+                "kind": "Task",
+                "title": "Demo Task 086",
+                "status": "review",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 36,
+                  "likely": 56,
+                  "pessimistic": 88
+                },
+                "estimate_points": 13,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-016",
+                  "demo-artifact-017",
+                  "demo-artifact-034",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-139",
+                "kind": "Task",
+                "title": "Demo Task 139",
+                "status": "review",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 24,
+                  "likely": 40,
+                  "pessimistic": 68
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-069",
+                  "demo-artifact-070",
+                  "demo-artifact-034",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-132",
+                "kind": "Task",
+                "title": "Demo Task 132",
+                "status": "accepted",
+                "priority": 2,
+                "estimate_hours": {
+                  "optimistic": 12,
+                  "likely": 20,
+                  "pessimistic": 32
+                },
+                "estimate_points": 3,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-054",
+                  "demo-artifact-053",
+                  "demo-artifact-056",
+                  "demo-artifact-055",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "demo-project-012",
+        "kind": "Project",
+        "sequence": 3,
+        "delivery_label": "Provider transport",
+        "title": "Demo Project 012",
+        "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "status": "review",
+        "priority": 5,
+        "gate": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "gate_status": "open",
+        "issues": [
+          {
+            "id": "demo-issue-045",
+            "kind": "Issue",
+            "title": "Demo Issue 045",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "accepted",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-122",
+                "kind": "Task",
+                "title": "Demo Task 122",
+                "status": "accepted",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 18,
+                  "likely": 28,
+                  "pessimistic": 44
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-022",
+                  "demo-artifact-037",
+                  "demo-artifact-004",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-071",
+                "kind": "Task",
+                "title": "Demo Task 071",
+                "status": "accepted",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 16,
+                  "likely": 24,
+                  "pessimistic": 36
+                },
+                "estimate_points": 3,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-022",
+                  "demo-artifact-004",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-138",
+                "kind": "Task",
+                "title": "Demo Task 138",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 18,
+                  "likely": 28,
+                  "pessimistic": 44
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-022",
+                  "demo-artifact-004",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-034",
+            "kind": "Issue",
+            "title": "Demo Issue 034",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "review",
+            "priority": 3,
+            "tasks": [
+              {
+                "id": "demo-task-111",
+                "kind": "Task",
+                "title": "Demo Task 111",
+                "status": "accepted",
+                "priority": 3,
+                "estimate_hours": {
+                  "optimistic": 10,
+                  "likely": 16,
+                  "pessimistic": 26
+                },
+                "estimate_points": 2,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-036",
+                  "demo-artifact-037",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-110",
+                "kind": "Task",
+                "title": "Demo Task 110",
+                "status": "draft",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 18,
+                  "likely": 28,
+                  "pessimistic": 44
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-023",
+            "kind": "Issue",
+            "title": "Demo Issue 023",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "review",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-081",
+                "kind": "Task",
+                "title": "Demo Task 081",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 16,
+                  "likely": 24,
+                  "pessimistic": 40
+                },
+                "estimate_points": 3,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-012",
+                  "demo-artifact-013",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-103",
+                "kind": "Task",
+                "title": "Demo Task 103",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 16,
+                  "likely": 24,
+                  "pessimistic": 40
+                },
+                "estimate_points": 3,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-003"
+                ]
+              },
+              {
+                "id": "demo-task-129",
+                "kind": "Task",
+                "title": "Demo Task 129",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 36,
+                  "likely": 56,
+                  "pessimistic": 88
+                },
+                "estimate_points": 13,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-003"
+                ]
+              },
+              {
+                "id": "demo-task-089",
+                "kind": "Task",
+                "title": "Demo Task 089",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 16,
+                  "likely": 24,
+                  "pessimistic": 44
+                },
+                "estimate_points": 3,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-003"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-046",
+            "kind": "Issue",
+            "title": "Demo Issue 046",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "review",
+            "priority": 4,
+            "tasks": [
+              {
+                "id": "demo-task-137",
+                "kind": "Task",
+                "title": "Demo Task 137",
+                "status": "accepted",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 16,
+                  "likely": 24,
+                  "pessimistic": 40
+                },
+                "estimate_points": 3,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-067",
+                  "demo-artifact-068",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-082",
+                "kind": "Task",
+                "title": "Demo Task 082",
+                "status": "draft",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 20,
+                  "likely": 32,
+                  "pessimistic": 52
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "demo-project-014",
+        "kind": "Project",
+        "sequence": 4,
+        "delivery_label": "Webhook relay",
+        "title": "Demo Project 014",
+        "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "status": "review",
+        "priority": 5,
+        "gate": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "gate_status": "open",
+        "issues": [
+          {
+            "id": "demo-issue-030",
+            "kind": "Issue",
+            "title": "Demo Issue 030",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "review",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-143",
+                "kind": "Task",
+                "title": "Demo Task 143",
+                "status": "accepted",
+                "priority": 3,
+                "estimate_hours": {
+                  "optimistic": 18,
+                  "likely": 28,
+                  "pessimistic": 44
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-073",
+                  "demo-artifact-074",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-123",
+                "kind": "Task",
+                "title": "Demo Task 123",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 20,
+                  "likely": 32,
+                  "pessimistic": 52
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-003"
+                ]
+              },
+              {
+                "id": "demo-task-088",
+                "kind": "Task",
+                "title": "Demo Task 088",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 24,
+                  "likely": 40,
+                  "pessimistic": 64
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-050",
+                  "demo-artifact-038",
+                  "demo-artifact-039",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-021",
+            "kind": "Issue",
+            "title": "Demo Issue 021",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "accepted",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-124",
+                "kind": "Task",
+                "title": "Demo Task 124",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 28,
+                  "likely": 48,
+                  "pessimistic": 76
+                },
+                "estimate_points": 13,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-050",
+                  "demo-artifact-038",
+                  "demo-artifact-039",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-085",
+                "kind": "Task",
+                "title": "Demo Task 085",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 20,
+                  "likely": 32,
+                  "pessimistic": 56
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-050",
+                  "demo-artifact-018",
+                  "demo-artifact-039",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-042",
+            "kind": "Issue",
+            "title": "Demo Issue 042",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "review",
+            "priority": 4,
+            "tasks": [
+              {
+                "id": "demo-task-126",
+                "kind": "Task",
+                "title": "Demo Task 126",
+                "status": "review",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 20,
+                  "likely": 32,
+                  "pessimistic": 48
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-049",
+                  "demo-artifact-048",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-005",
+                  "demo-blocker-006"
+                ]
+              },
+              {
+                "id": "demo-task-125",
+                "kind": "Task",
+                "title": "Demo Task 125",
+                "status": "review",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 20,
+                  "likely": 32,
+                  "pessimistic": 56
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-047",
+                  "demo-artifact-046",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-005"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "demo-project-013",
+        "kind": "Project",
+        "sequence": 5,
+        "delivery_label": "Reservation projections",
+        "title": "Demo Project 013",
+        "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "status": "review",
+        "priority": 5,
+        "gate": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "gate_status": "open",
+        "issues": [
+          {
+            "id": "demo-issue-036",
+            "kind": "Issue",
+            "title": "Demo Issue 036",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "review",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-096",
+                "kind": "Task",
+                "title": "Demo Task 096",
+                "status": "accepted",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 12,
+                  "likely": 20,
+                  "pessimistic": 32
+                },
+                "estimate_points": 3,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-023",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-117",
+                "kind": "Task",
+                "title": "Demo Task 117",
+                "status": "review",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 20,
+                  "likely": 32,
+                  "pessimistic": 52
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-031",
+                  "demo-artifact-030",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-003"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-014",
+            "kind": "Issue",
+            "title": "Demo Issue 014",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "draft",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-102",
+                "kind": "Task",
+                "title": "Demo Task 102",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 28,
+                  "likely": 48,
+                  "pessimistic": 76
+                },
+                "estimate_points": 13,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-003"
+                ]
+              },
+              {
+                "id": "demo-task-128",
+                "kind": "Task",
+                "title": "Demo Task 128",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 36,
+                  "likely": 56,
+                  "pessimistic": 88
+                },
+                "estimate_points": 13,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-003"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-044",
+            "kind": "Issue",
+            "title": "Demo Issue 044",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "accepted",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-104",
+                "kind": "Task",
+                "title": "Demo Task 104",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 28,
+                  "likely": 40,
+                  "pessimistic": 68
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-031",
+                  "demo-artifact-030",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-142",
+                "kind": "Task",
+                "title": "Demo Task 142",
+                "status": "accepted",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 24,
+                  "likely": 40,
+                  "pessimistic": 64
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-071",
+                  "demo-artifact-072",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-040",
+            "kind": "Issue",
+            "title": "Demo Issue 040",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "review",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-084",
+                "kind": "Task",
+                "title": "Demo Task 084",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 24,
+                  "likely": 40,
+                  "pessimistic": 64
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-014",
+                  "demo-artifact-015",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-116",
+                "kind": "Task",
+                "title": "Demo Task 116",
+                "status": "accepted",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 16,
+                  "likely": 24,
+                  "pessimistic": 40
+                },
+                "estimate_points": 3,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-040",
+                  "demo-artifact-041",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-095",
+                "kind": "Task",
+                "title": "Demo Task 095",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 48,
+                  "likely": 80,
+                  "pessimistic": 128
+                },
+                "estimate_points": 21,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-003"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "demo-project-011",
+        "kind": "Project",
+        "sequence": 6,
+        "delivery_label": "Hermes reads",
+        "title": "Demo Project 011",
+        "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "status": "review",
+        "priority": 4,
+        "gate": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "gate_status": "open",
+        "issues": [
+          {
+            "id": "demo-issue-028",
+            "kind": "Issue",
+            "title": "Demo Issue 028",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "review",
+            "priority": 4,
+            "tasks": [
+              {
+                "id": "demo-task-097",
+                "kind": "Task",
+                "title": "Demo Task 097",
+                "status": "accepted",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 20,
+                  "likely": 32,
+                  "pessimistic": 48
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-024",
+                  "demo-artifact-027",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-100",
+                "kind": "Task",
+                "title": "Demo Task 100",
+                "status": "accepted",
+                "priority": 3,
+                "estimate_hours": {
+                  "optimistic": 12,
+                  "likely": 20,
+                  "pessimistic": 32
+                },
+                "estimate_points": 3,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-024",
+                  "demo-artifact-027",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-031",
+            "kind": "Issue",
+            "title": "Demo Issue 031",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "accepted",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-105",
+                "kind": "Task",
+                "title": "Demo Task 105",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 20,
+                  "likely": 32,
+                  "pessimistic": 52
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-032",
+                  "demo-artifact-033",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-127",
+                "kind": "Task",
+                "title": "Demo Task 127",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 20,
+                  "likely": 32,
+                  "pessimistic": 52
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-042",
+                  "demo-artifact-043",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-039",
+            "kind": "Issue",
+            "title": "Demo Issue 039",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "review",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-098",
+                "kind": "Task",
+                "title": "Demo Task 098",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 16,
+                  "likely": 24,
+                  "pessimistic": 40
+                },
+                "estimate_points": 3,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-025",
+                  "demo-artifact-026",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-099",
+                "kind": "Task",
+                "title": "Demo Task 099",
+                "status": "draft",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 18,
+                  "likely": 28,
+                  "pessimistic": 44
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-003"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "demo-project-007",
+        "kind": "Project",
+        "sequence": 7,
+        "delivery_label": "Curated writes",
+        "title": "Demo Project 007",
+        "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "status": "review",
+        "priority": 5,
+        "gate": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "gate_status": "open",
+        "issues": [
+          {
+            "id": "demo-issue-018",
+            "kind": "Issue",
+            "title": "Demo Issue 018",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "accepted",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-078",
+                "kind": "Task",
+                "title": "Demo Task 078",
+                "status": "accepted",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 20,
+                  "likely": 32,
+                  "pessimistic": 48
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-064",
+                  "demo-artifact-004",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-112",
+                "kind": "Task",
+                "title": "Demo Task 112",
+                "status": "accepted",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 16,
+                  "likely": 24,
+                  "pessimistic": 36
+                },
+                "estimate_points": 3,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-022",
+                  "demo-artifact-024",
+                  "demo-artifact-004",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-077",
+                "kind": "Task",
+                "title": "Demo Task 077",
+                "status": "accepted",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 24,
+                  "likely": 40,
+                  "pessimistic": 64
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-005",
+                  "demo-artifact-006",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-027",
+            "kind": "Issue",
+            "title": "Demo Issue 027",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "draft",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-119",
+                "kind": "Task",
+                "title": "Demo Task 119",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 24,
+                  "likely": 40,
+                  "pessimistic": 64
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-003"
+                ]
+              },
+              {
+                "id": "demo-task-118",
+                "kind": "Task",
+                "title": "Demo Task 118",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 28,
+                  "likely": 48,
+                  "pessimistic": 76
+                },
+                "estimate_points": 13,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-003"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-047",
+            "kind": "Issue",
+            "title": "Demo Issue 047",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "review",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-144",
+                "kind": "Task",
+                "title": "Demo Task 144",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 24,
+                  "likely": 40,
+                  "pessimistic": 64
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-003"
+                ]
+              },
+              {
+                "id": "demo-task-145",
+                "kind": "Task",
+                "title": "Demo Task 145",
+                "status": "accepted",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 16,
+                  "likely": 24,
+                  "pessimistic": 40
+                },
+                "estimate_points": 3,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-075",
+                  "demo-artifact-076",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "demo-project-010",
+        "kind": "Project",
+        "sequence": 8,
+        "delivery_label": "Finance reads",
+        "title": "Demo Project 010",
+        "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "status": "review",
+        "priority": 4,
+        "gate": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "gate_status": "open",
+        "issues": [
+          {
+            "id": "demo-issue-024",
+            "kind": "Issue",
+            "title": "Demo Issue 024",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "review",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-091",
+                "kind": "Task",
+                "title": "Demo Task 091",
+                "status": "accepted",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 10,
+                  "likely": 16,
+                  "pessimistic": 24
+                },
+                "estimate_points": 2,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-001",
+                  "demo-artifact-023",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-092",
+                "kind": "Task",
+                "title": "Demo Task 092",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 20,
+                  "likely": 32,
+                  "pessimistic": 48
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-002"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-025",
+            "kind": "Issue",
+            "title": "Demo Issue 025",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "draft",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-101",
+                "kind": "Task",
+                "title": "Demo Task 101",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 24,
+                  "likely": 40,
+                  "pessimistic": 64
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-003"
+                ]
+              },
+              {
+                "id": "demo-task-113",
+                "kind": "Task",
+                "title": "Demo Task 113",
+                "status": "draft",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 28,
+                  "likely": 48,
+                  "pessimistic": 76
+                },
+                "estimate_points": 13,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-002",
+                  "demo-blocker-003"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-026",
+            "kind": "Issue",
+            "title": "Demo Issue 026",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "draft",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-093",
+                "kind": "Task",
+                "title": "Demo Task 093",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 24,
+                  "likely": 40,
+                  "pessimistic": 68
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-003"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "demo-project-009",
+        "kind": "Project",
+        "sequence": 9,
+        "delivery_label": "Desktop pilot",
+        "title": "Demo Project 009",
+        "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "status": "review",
+        "priority": 5,
+        "gate": "Synthetic demonstration data; no real project status or qualification is claimed.",
+        "gate_status": "open",
+        "issues": [
+          {
+            "id": "demo-issue-043",
+            "kind": "Issue",
+            "title": "Demo Issue 043",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "review",
+            "priority": 4,
+            "tasks": [
+              {
+                "id": "demo-task-131",
+                "kind": "Task",
+                "title": "Demo Task 131",
+                "status": "accepted",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 16,
+                  "likely": 24,
+                  "pessimistic": 36
+                },
+                "estimate_points": 3,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-051",
+                  "demo-artifact-052",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              },
+              {
+                "id": "demo-task-130",
+                "kind": "Task",
+                "title": "Demo Task 130",
+                "status": "draft",
+                "priority": 4,
+                "estimate_hours": {
+                  "optimistic": 20,
+                  "likely": 32,
+                  "pessimistic": 52
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-003"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-022",
+            "kind": "Issue",
+            "title": "Demo Issue 022",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "review",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-106",
+                "kind": "Task",
+                "title": "Demo Task 106",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 28,
+                  "likely": 48,
+                  "pessimistic": 80
+                },
+                "estimate_points": 13,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-034",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-001"
+                ]
+              },
+              {
+                "id": "demo-task-134",
+                "kind": "Task",
+                "title": "Demo Task 134",
+                "status": "draft",
+                "priority": 3,
+                "estimate_hours": {
+                  "optimistic": 24,
+                  "likely": 40,
+                  "pessimistic": 72
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-007"
+                ]
+              },
+              {
+                "id": "demo-task-133",
+                "kind": "Task",
+                "title": "Demo Task 133",
+                "status": "review",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 24,
+                  "likely": 40,
+                  "pessimistic": 64
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-011",
+                  "demo-artifact-059",
+                  "demo-artifact-066",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": []
+              }
+            ]
+          },
+          {
+            "id": "demo-issue-035",
+            "kind": "Issue",
+            "title": "Demo Issue 035",
+            "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+            "status": "review",
+            "priority": 5,
+            "tasks": [
+              {
+                "id": "demo-task-135",
+                "kind": "Task",
+                "title": "Demo Task 135",
+                "status": "review",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 24,
+                  "likely": 40,
+                  "pessimistic": 72
+                },
+                "estimate_points": 8,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-029",
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-004",
+                  "demo-blocker-005",
+                  "demo-blocker-008"
+                ]
+              },
+              {
+                "id": "demo-task-115",
+                "kind": "Task",
+                "title": "Demo Task 115",
+                "status": "draft",
+                "priority": 5,
+                "estimate_hours": {
+                  "optimistic": 20,
+                  "likely": 32,
+                  "pessimistic": 56
+                },
+                "estimate_points": 5,
+                "acceptance_criteria": [
+                  "Demonstration only; no real qualification or private evidence."
+                ],
+                "artifact_ids": [
+                  "demo-artifact-021"
+                ],
+                "blocker_ids": [
+                  "demo-blocker-003"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "blockers": [
+    {
+      "id": "demo-blocker-003",
+      "kind": "Blocker",
+      "title": "Demo Blocker 003",
+      "status": "review",
+      "description": "Synthetic demonstration data; no real project status or qualification is claimed."
+    },
+    {
+      "id": "demo-blocker-005",
+      "kind": "Blocker",
+      "title": "Demo Blocker 005",
+      "status": "review",
+      "description": "Synthetic demonstration data; no real project status or qualification is claimed."
+    },
+    {
+      "id": "demo-blocker-006",
+      "kind": "Blocker",
+      "title": "Demo Blocker 006",
+      "status": "review",
+      "description": "Synthetic demonstration data; no real project status or qualification is claimed."
+    },
+    {
+      "id": "demo-blocker-002",
+      "kind": "Blocker",
+      "title": "Demo Blocker 002",
+      "status": "review",
+      "description": "Synthetic demonstration data; no real project status or qualification is claimed."
+    },
+    {
+      "id": "demo-blocker-008",
+      "kind": "Blocker",
+      "title": "Demo Blocker 008",
+      "status": "review",
+      "description": "Synthetic demonstration data; no real project status or qualification is claimed."
+    },
+    {
+      "id": "demo-blocker-007",
+      "kind": "Blocker",
+      "title": "Demo Blocker 007",
+      "status": "review",
+      "description": "Synthetic demonstration data; no real project status or qualification is claimed."
+    },
+    {
+      "id": "demo-blocker-001",
+      "kind": "Blocker",
+      "title": "Demo Blocker 001",
+      "status": "review",
+      "description": "Synthetic demonstration data; no real project status or qualification is claimed."
+    },
+    {
+      "id": "demo-blocker-004",
+      "kind": "Blocker",
+      "title": "Demo Blocker 004",
+      "status": "review",
+      "description": "Synthetic demonstration data; no real project status or qualification is claimed."
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "demo-artifact-003",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 003",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-050",
+      "kind": "Artifact",
+      "role": "decision_support_material",
+      "title": "Demo Artifact 050",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-038",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 038",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-018",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 018",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-039",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 039",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-049",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 049",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-048",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 048",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-047",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 047",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-046",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 046",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-001",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 001",
+      "paths": [
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-028",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 028",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-044",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 044",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-063",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 063",
+      "paths": [
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-064",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 064",
+      "paths": [
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-065",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 065",
+      "paths": [
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-061",
+      "kind": "Artifact",
+      "role": "decision_support_material",
+      "title": "Demo Artifact 061",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-062",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 062",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-060",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 060",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-008",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 008",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-007",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 007",
+      "paths": [
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-031",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 031",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-030",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 030",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-014",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 014",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-015",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 015",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-040",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 040",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-041",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 041",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-071",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 071",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-072",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 072",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-019",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 019",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-020",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 020",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-011",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 011",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-059",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 059",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-066",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 066",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-069",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 069",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-070",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 070",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-029",
+      "kind": "Artifact",
+      "role": "decision_support_material",
+      "title": "Demo Artifact 029",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-009",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 009",
+      "paths": [
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-010",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 010",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-057",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 057",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-058",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 058",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-016",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 016",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-017",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 017",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-034",
+      "kind": "Artifact",
+      "role": "decision_support_material",
+      "title": "Demo Artifact 034",
+      "paths": [
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-035",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 035",
+      "paths": [
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-002",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 002",
+      "paths": [
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-045",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 045",
+      "paths": [
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-022",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 022",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-004",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 004",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-012",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 012",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-013",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 013",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-067",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 067",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-068",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 068",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-005",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 005",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-006",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 006",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-037",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 037",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-036",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 036",
+      "paths": [
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-073",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 073",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-074",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 074",
+      "paths": [
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-024",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 024",
+      "paths": [
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-027",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 027",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-032",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 032",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-033",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 033",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-025",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 025",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-026",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 026",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-042",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 042",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-043",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 043",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-075",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 075",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-076",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 076",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-023",
+      "kind": "Artifact",
+      "role": "decision_support_material",
+      "title": "Demo Artifact 023",
+      "paths": [
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-051",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 051",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-052",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 052",
+      "paths": [
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-054",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 054",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-053",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 053",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-056",
+      "kind": "Artifact",
+      "role": "implementation_evidence",
+      "title": "Demo Artifact 056",
+      "paths": [
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-055",
+      "kind": "Artifact",
+      "role": "smoke_test_evidence",
+      "title": "Demo Artifact 055",
+      "paths": [
+        "example/demo-evidence.json",
+        "example/demo-evidence.json"
+      ]
+    },
+    {
+      "id": "demo-artifact-021",
+      "kind": "Artifact",
+      "role": "decision_support_material",
+      "title": "Demo Artifact 021",
+      "paths": [
+        "example/demo-evidence.json"
+      ]
+    }
+  ]
+}

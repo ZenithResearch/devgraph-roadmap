@@ -1,0 +1,444 @@
+{
+  "schema": "roadmap.journeys/v1",
+  "examples": [
+    {
+      "id": "process",
+      "title": "Demonstration checkpoint",
+      "subtitle": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "dependency_note": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "levels": [
+        {
+          "gate_id": "native-service-authority",
+          "title": "Demonstration checkpoint",
+          "theme": "forest",
+          "icon": "key",
+          "milestones": [
+            {
+              "project_id": "demo-project-004",
+              "issue_ids": [
+                "demo-issue-003"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            },
+            {
+              "project_id": "demo-project-015",
+              "issue_ids": [
+                "demo-issue-057",
+                "demo-issue-056"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            },
+            {
+              "project_id": "demo-project-002",
+              "issue_ids": [
+                "demo-issue-005"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            },
+            {
+              "project_id": "demo-project-003",
+              "issue_ids": [
+                "demo-issue-013",
+                "demo-issue-002"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            }
+          ]
+        },
+        {
+          "gate_id": "production-entrypoints",
+          "title": "Demonstration checkpoint",
+          "theme": "blue",
+          "icon": "window",
+          "milestones": [
+            {
+              "project_id": "demo-project-004",
+              "issue_ids": [
+                "demo-issue-051"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            },
+            {
+              "project_id": "demo-project-015",
+              "issue_ids": [
+                "demo-issue-056",
+                "demo-issue-055"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            },
+            {
+              "project_id": "demo-project-002",
+              "issue_ids": [
+                "demo-issue-011",
+                "demo-issue-004"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            }
+          ]
+        },
+        {
+          "gate_id": "immutable-artifacts-and-ci",
+          "title": "Demonstration checkpoint",
+          "theme": "purple",
+          "icon": "package",
+          "milestones": [
+            {
+              "project_id": "demo-project-004",
+              "issue_ids": [
+                "demo-issue-051"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            },
+            {
+              "project_id": "demo-project-015",
+              "issue_ids": [
+                "demo-issue-056"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            },
+            {
+              "project_id": "demo-project-002",
+              "issue_ids": [
+                "demo-issue-011"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            },
+            {
+              "project_id": "demo-project-003",
+              "issue_ids": [
+                "demo-issue-013",
+                "demo-issue-002"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            }
+          ]
+        },
+        {
+          "gate_id": "independent-handlers",
+          "title": "Demonstration checkpoint",
+          "theme": "orange",
+          "icon": "spark",
+          "milestones": [
+            {
+              "project_id": "demo-project-002",
+              "issue_ids": [
+                "demo-issue-011"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            },
+            {
+              "project_id": "demo-project-004",
+              "issue_ids": [
+                "demo-issue-049"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            },
+            {
+              "project_id": "demo-project-003",
+              "issue_ids": [
+                "demo-issue-058"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            }
+          ]
+        },
+        {
+          "gate_id": "providers-and-effect-recovery",
+          "title": "Demonstration checkpoint",
+          "theme": "pink",
+          "icon": "message",
+          "milestones": [
+            {
+              "project_id": "demo-project-002",
+              "issue_ids": [
+                "demo-issue-009",
+                "demo-issue-006"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            },
+            {
+              "project_id": "demo-project-003",
+              "issue_ids": [
+                "demo-issue-002"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            }
+          ]
+        },
+        {
+          "gate_id": "installed-integration",
+          "title": "Demonstration checkpoint",
+          "theme": "blue",
+          "icon": "globe",
+          "milestones": [
+            {
+              "project_id": "demo-project-004",
+              "issue_ids": [
+                "demo-issue-054",
+                "demo-issue-052"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            },
+            {
+              "project_id": "demo-project-015",
+              "issue_ids": [
+                "demo-issue-001",
+                "demo-issue-055"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            },
+            {
+              "project_id": "demo-project-002",
+              "issue_ids": [
+                "demo-issue-004",
+                "demo-issue-006"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            },
+            {
+              "project_id": "demo-project-003",
+              "issue_ids": [
+                "demo-issue-002"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            }
+          ]
+        },
+        {
+          "gate_id": "actual-cutover-and-rollback",
+          "title": "Demonstration checkpoint",
+          "theme": "forest",
+          "icon": "flag",
+          "milestones": [
+            {
+              "project_id": "demo-project-004",
+              "issue_ids": [
+                "demo-issue-054"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            },
+            {
+              "project_id": "demo-project-015",
+              "issue_ids": [
+                "demo-issue-056"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            },
+            {
+              "project_id": "demo-project-002",
+              "issue_ids": [
+                "demo-issue-006"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            },
+            {
+              "project_id": "demo-project-003",
+              "issue_ids": [
+                "demo-issue-012"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            }
+          ]
+        },
+        {
+          "gate_id": "devgraph-workflow-qualification",
+          "title": "Demonstration checkpoint",
+          "theme": "purple",
+          "icon": "scroll",
+          "milestones": [
+            {
+              "project_id": "demo-project-003",
+              "issue_ids": [
+                "demo-issue-013"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            }
+          ]
+        }
+      ],
+      "plan_file": "examples/plans/native-service-authority.json"
+    },
+    {
+      "id": "zendo",
+      "title": "Demonstration checkpoint",
+      "subtitle": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "dependency_note": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "levels": [
+        {
+          "gate_id": "demo-project-005:gate",
+          "title": "Demonstration checkpoint",
+          "theme": "forest",
+          "icon": "key",
+          "milestones": [
+            {
+              "project_id": "demo-project-005",
+              "issue_ids": [
+                "demo-issue-016",
+                "demo-issue-015",
+                "demo-issue-017"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            }
+          ]
+        },
+        {
+          "gate_id": "demo-project-006:gate",
+          "title": "Demonstration checkpoint",
+          "theme": "blue",
+          "icon": "window",
+          "milestones": [
+            {
+              "project_id": "demo-project-006",
+              "issue_ids": [
+                "demo-issue-037",
+                "demo-issue-038",
+                "demo-issue-029",
+                "demo-issue-019"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            }
+          ]
+        },
+        {
+          "gate_id": "demo-project-008:gate",
+          "title": "Demonstration checkpoint",
+          "theme": "purple",
+          "icon": "package",
+          "milestones": [
+            {
+              "project_id": "demo-project-008",
+              "issue_ids": [
+                "demo-issue-032",
+                "demo-issue-020",
+                "demo-issue-033",
+                "demo-issue-041"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            }
+          ]
+        },
+        {
+          "gate_id": "demo-project-012:gate",
+          "title": "Demonstration checkpoint",
+          "theme": "orange",
+          "icon": "message",
+          "milestones": [
+            {
+              "project_id": "demo-project-012",
+              "issue_ids": [
+                "demo-issue-045",
+                "demo-issue-034",
+                "demo-issue-023",
+                "demo-issue-046"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            }
+          ]
+        },
+        {
+          "gate_id": "demo-project-014:gate",
+          "title": "Demonstration checkpoint",
+          "theme": "pink",
+          "icon": "flag",
+          "milestones": [
+            {
+              "project_id": "demo-project-014",
+              "issue_ids": [
+                "demo-issue-030",
+                "demo-issue-021",
+                "demo-issue-042"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            }
+          ]
+        },
+        {
+          "gate_id": "demo-project-013:gate",
+          "title": "Demonstration checkpoint",
+          "theme": "forest",
+          "icon": "key",
+          "milestones": [
+            {
+              "project_id": "demo-project-013",
+              "issue_ids": [
+                "demo-issue-036",
+                "demo-issue-014",
+                "demo-issue-044",
+                "demo-issue-040"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            }
+          ]
+        },
+        {
+          "gate_id": "demo-project-011:gate",
+          "title": "Demonstration checkpoint",
+          "theme": "blue",
+          "icon": "window",
+          "milestones": [
+            {
+              "project_id": "demo-project-011",
+              "issue_ids": [
+                "demo-issue-028",
+                "demo-issue-031",
+                "demo-issue-039"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            }
+          ]
+        },
+        {
+          "gate_id": "demo-project-007:gate",
+          "title": "Demonstration checkpoint",
+          "theme": "purple",
+          "icon": "package",
+          "milestones": [
+            {
+              "project_id": "demo-project-007",
+              "issue_ids": [
+                "demo-issue-018",
+                "demo-issue-027",
+                "demo-issue-047"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            }
+          ]
+        },
+        {
+          "gate_id": "demo-project-010:gate",
+          "title": "Demonstration checkpoint",
+          "theme": "orange",
+          "icon": "message",
+          "milestones": [
+            {
+              "project_id": "demo-project-010",
+              "issue_ids": [
+                "demo-issue-024",
+                "demo-issue-025",
+                "demo-issue-026"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            }
+          ]
+        },
+        {
+          "gate_id": "demo-project-009:gate",
+          "title": "Demonstration checkpoint",
+          "theme": "pink",
+          "icon": "flag",
+          "milestones": [
+            {
+              "project_id": "demo-project-009",
+              "issue_ids": [
+                "demo-issue-043",
+                "demo-issue-022",
+                "demo-issue-035"
+              ],
+              "objective": "Synthetic demonstration data; no real project status or qualification is claimed."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

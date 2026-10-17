@@ -1,0 +1,43 @@
+{
+  "schema": "roadmap.source-manifest/v1",
+  "captured_at": "2026-01-01T00:00:00Z",
+  "files": [
+    {
+      "id": "zendo-roadmap",
+      "frozen_path": "examples/sources/zendo-roadmap.json",
+      "frozen_sha256": "10135efb32419530fc57516f62dc84b18fe420785b7028715e2441682050fb37",
+      "upstream_path": "/example/generated/zendo-roadmap.json",
+      "upstream_sha256": "10135efb32419530fc57516f62dc84b18fe420785b7028715e2441682050fb37",
+      "role": "Synthetic demonstration fixture; no real Work or token data",
+      "captured_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "zendo-tokens",
+      "frozen_path": "examples/sources/zendo-tokens.json",
+      "frozen_sha256": "636bda8feade731e0df16872d7f85dfa08b7c2b74f702de8bca8c03e4a87b43e",
+      "upstream_path": "/example/generated/zendo-tokens.json",
+      "upstream_sha256": "636bda8feade731e0df16872d7f85dfa08b7c2b74f702de8bca8c03e4a87b43e",
+      "role": "Synthetic demonstration fixture; no real Work or token data",
+      "captured_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "process-evidence",
+      "frozen_path": "examples/sources/process-evidence.json",
+      "frozen_sha256": "0d05b0680b5eb2f3dd5f0788f93c0cf4f933d7a99bb75d6466be37d7c76f22d3",
+      "upstream_path": "/example/generated/process-evidence.json",
+      "upstream_sha256": "0d05b0680b5eb2f3dd5f0788f93c0cf4f933d7a99bb75d6466be37d7c76f22d3",
+      "role": "Synthetic demonstration fixture; no real Work or token data",
+      "captured_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "process-canonical-20261016-live-after-notes",
+      "frozen_path": "examples/sources/process-devgraph.json",
+      "frozen_sha256": "08213ccddf4aba38846a06c04d88315e638d09772c4f31c4c46a20f2c2ca58e5",
+      "upstream_path": "/example/generated/process-devgraph.json",
+      "upstream_sha256": "08213ccddf4aba38846a06c04d88315e638d09772c4f31c4c46a20f2c2ca58e5",
+      "role": "Synthetic demonstration fixture; no real Work or token data",
+      "captured_at": "2026-01-01T00:00:00Z"
+    }
+  ],
+  "design_reference": []
+}

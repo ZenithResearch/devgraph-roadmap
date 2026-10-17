@@ -1,0 +1,15 @@
+# Contract and adapter boundary
+
+`contracts/roadmap.snapshot.v1.schema.json` is the closed normalized browser contract. `src/model.js` enforces it and checks unique identities, canonical completion consistency, evidence provenance, valid optional estimates, token coverage/date/source, bounded totals, project grouping, blocker references, Issue DAGs and gate DAGs. The build and browser use the same validator. A digest mismatch or unknown version fails closed; the UI does not fall back to a misleading zero summary.
+
+The repository owns adapters, not canonical Work. `adapters/zendo.mjs` reads the versioned Zendo repository projection and measured token rollups; `adapters/devgraph.mjs` reads an allowlisted offline Devgraph export and a separately dated implementation-evidence projection. Only the adapters understand those upstream shapes. `scripts/inputs.mjs` selects adapters using configuration, checks frozen bytes and produces the generic model. Add a new source adapter there; keep `src/app.js` generic.
+
+Canonical `legacy_status`, workflow `stage`/`progress`/`workflow_id`, archive and version are independent. `done=true` requires explicit workflow `progress=done` and workflow identity; a known other progress is false, and absent progress is null. Archived ancestors are excluded from active totals. Rendering an archived record never changes its underlying completion fact.
+
+Implementation evidence contains a state (`none`, `recorded`, `verified`), scope summary and source-bound references. These examples only claim recorded evidence. A future adapter may emit verified only with actual source-supported reviewed verification; production qualification remains a separate property and gate list.
+
+`estimate.hours` is null or an ordered optimistic/likely/pessimistic triple, and points are null or the configured Fibonacci scale. Estimates require source attribution. Tokens are null for unobserved coverage; observed/partial values are nonnegative safe integers with source and timestamp. Rollups retain coverage and fail on overflow. Numeric terms are sorted before compensated summation, so fractional effort is deterministic across hierarchy permutations. They never fill gaps with inferred zero or infer completion from effort/token percentages.
+
+The source manifest records original upstream SHA and frozen SHA independently. The process input was allowlisted from the successful readback: only Work records, workflow facts, dependencies and aggregate verification metadata were retained. Host configuration and transport responses are not included. Browser snapshots have no auth headers, keys, refresh URLs, or credential fields. Text is rendered through `textContent` and native disclosure controls; source descriptions cannot inject HTML.
+
+Browser source provenance binds the reviewed frozen file path and frozen-file digest. The local audit manifest separately preserves exact upstream operator paths, upstream digests and transformations; those absolute locations are excluded from browser assets. Evidence references use portable repository aliases and remain source claims, not a file-download feature.

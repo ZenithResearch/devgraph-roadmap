@@ -1,0 +1,124 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "examples"
+  ],
+  "properties": {
+    "schema": {
+      "const": "roadmap.journeys/v1"
+    },
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "title",
+          "subtitle",
+          "dependency_note",
+          "levels"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "subtitle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "dependency_note": {
+            "type": "string",
+            "minLength": 1
+          },
+          "levels": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "gate_id",
+                "title",
+                "theme",
+                "icon",
+                "milestones"
+              ],
+              "properties": {
+                "gate_id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "title": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "theme": {
+                  "enum": [
+                    "forest",
+                    "blue",
+                    "purple",
+                    "orange",
+                    "pink"
+                  ]
+                },
+                "icon": {
+                  "enum": [
+                    "key",
+                    "window",
+                    "package",
+                    "spark",
+                    "message",
+                    "globe",
+                    "flag",
+                    "scroll"
+                  ]
+                },
+                "milestones": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "project_id",
+                      "issue_ids",
+                      "objective"
+                    ],
+                    "properties": {
+                      "project_id": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "issue_ids": {
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "minLength": 1
+                        }
+                      },
+                      "objective": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "plan_file": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

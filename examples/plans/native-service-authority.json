@@ -1,0 +1,476 @@
+{
+  "schema": "roadmap.gate-plan/v1",
+  "gate_id": "native-service-authority",
+  "title": "Demonstration checkpoint",
+  "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+  "phases": [
+    {
+      "id": "NS-01",
+      "title": "Demonstration checkpoint",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "depends_on": [],
+      "actions": [
+        "Retain the completed baseline comparison and bilateral source agreement; compose on Wallet f654017 and secS 109c0be in separate worktrees, record exact source/artifact hashes, and review combined regressions before integration acceptance.",
+        "Freeze current source and installed artifact inventory, exact Task conditions, public contract hashes and known limitations.",
+        "Record reviewed Frank result verification/durable admission alongside existing native receiver/CLI preparation; identities, native issuer/admission and installed-chain qualification remain incomplete.",
+        "Keep Gate 1 separate from Gate 8; plan checkpoints are not new Devgraph Work objects or canonical Task progress.",
+        "At the next deliberate source integration checkpoint, compose the reported Wallet 6c9c2e5, secS 254f744 and Devgraph b85fa32 successor fixes and their URL/IDNA dependency floor; review new artifacts separately and preserve historical helper pins. Read-only source comparison is available; reported hosted checks and installed qualification are not accepted by that comparison."
+      ],
+      "task_ids": [],
+      "project_ids": [
+        "demo-project-004",
+        "demo-project-002",
+        "demo-project-015",
+        "demo-project-003"
+      ],
+      "review": {
+        "lead": "Independent native authority qualification reviewer",
+        "challenger": "Independent Runtime, Service, Frank and Hub owners"
+      },
+      "exit_evidence": [
+        "Versioned source/contract inventory and read-only status packet with all 12 primary Tasks and supporting Tasks mapped.",
+        "Unchanged production default-deny, no external sends and no authority changes.",
+        "A version/hash compatibility matrix and explicit shared-interface owner disposition; unresolved native upgrade acceptance remains visible."
+      ]
+    },
+    {
+      "id": "NS-02",
+      "title": "Demonstration checkpoint",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "depends_on": [
+        "NS-01"
+      ],
+      "actions": [
+        "Honor the bilateral source ownership agreement while completing clean service composition and compatibility review. Preserve existing receiver helper pins until a separately reviewed migration and keep generic human, recovery and read contracts unchanged.",
+        "Review native schema-4 packet/context, exact payload bytes and existing helper wire protocol; preserve human Wallet credential-presentation v2 and fresh interactive consent.",
+        "Freeze separate Runtime, Service ingress, Service outbound and Frank result namespaces/audiences/resources; allocate service/result opcodes through reviewed receiver manifests, never guessed values.",
+        "Freeze stable subject versus holder-key versus verifier-key identity; least-privilege allow/deny windows, revocation and exact command retry semantics.",
+        "Select the accountable result-attestation party and when final normalized transport fields become known.",
+        "Confirm the reviewed immutable unsigned-result and renewable-proof contract, then qualify its bounded issuer/result-party and completion/failure reconciliation semantics on the installed native chain."
+      ],
+      "task_ids": [
+        "demo-task-014",
+        "demo-task-013",
+        "demo-task-012",
+        "demo-task-024",
+        "demo-task-030",
+        "demo-task-067"
+      ],
+      "project_ids": [
+        "demo-project-004",
+        "demo-project-002",
+        "demo-project-015"
+      ],
+      "review": {
+        "lead": "Castalia Wallet service identity and custody architect",
+        "challenger": "secS least-privilege and adversarial authorization reviewer"
+      },
+      "exit_evidence": [
+        "Reviewed closed interface/payload profiles, descriptor and authority matrix, proposed actor/connector mappings and compatibility fixtures.",
+        "Recorded disposition of the result-party and replay/renewal decisions; no implicit production trust."
+      ]
+    },
+    {
+      "id": "NS-03",
+      "title": "Demonstration checkpoint",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "depends_on": [
+        "NS-01"
+      ],
+      "actions": [
+        "Build locked native/helper/component candidates into an isolated artifact directory; pin toolchains, source revisions, dependencies and every installed file hash.",
+        "Package a direct macOS installation for the operator\u2019s Mac and Example second Mac. Detect macOS version and CPU architecture, admit only tested artifact combinations, and provide install, start, stop, health, update and rollback instructions.",
+        "Run the service-authority installed checks directly on macOS using separately provisioned test identities and explicit private application/custody/policy/data roots. Add supported test configuration where required. The broad generic Wallet/Devgraph migration recorder is not a prerequisite for the local pilot.",
+        "Prepare distinct Gate 1 service-authority and Gate 8 generic-Devgraph evidence manifests using the supported physical-Mac path. Keep their acceptance matrices independent and retain prior VM-only evidence at its original scope.",
+        "Prepare repeatable installation and enrolment instructions for both Macs and run package/configuration/start/stop/health smoke checks with disposable test authority. Full native lifecycle and command/result qualification belong to NS-08/NS-09; target enrolment remains NS-10, followed by the later production integration gates.",
+        "Measure release installation and each build/test command separately. Preserve the retained NI02 seven-command driver\u2019s 10 GiB floor unchanged; it is not a product or machine minimum. Separate bounded ordinary public tests need their own measured resource budget. Restore images, VM setup, Docker recovery and Linux/OCI exports are outside this direct Mac release\u2019s prerequisites."
+      ],
+      "task_ids": [
+        "demo-task-031",
+        "demo-task-032",
+        "demo-task-033"
+      ],
+      "project_ids": [
+        "demo-project-003"
+      ],
+      "review": {
+        "lead": "Release artifact and isolated-runner operator",
+        "challenger": "Custody isolation and recovery SRE reviewer"
+      },
+      "exit_evidence": [
+        "Exact-artifact manifest and reproducible build provenance.",
+        "Physical-Mac qualification report records actual macOS/CPU identity, exact installed artifacts, explicit private test roots, synthetic public identity/policy pins, bounded lifecycle tests and owned cleanup/recovery.",
+        "Direct-Mac service-authority test configuration and actual lifecycle results are reviewed. Generic Gate 8 browser/terminal migration acceptance remains separate and does not require a VM by policy.",
+        "Repeatable direct install/start/stop/health smoke evidence with disposable test authority, documented update/rollback and a compatibility inventory for the target Macs. This checkpoint does not wait for NS-09/NS-10 or claim native target enrolment or live workflow acceptance."
+      ]
+    },
+    {
+      "id": "NS-04",
+      "title": "Demonstration checkpoint",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "depends_on": [
+        "NS-02"
+      ],
+      "actions": [
+        "Credit historical holder/custody 5832c77, observation 9cc8140, codec 22cf00ca and the reviewed shared-source producer 3484dc40/consumer 6dbf497. Preserve the scoped generic graph during this checkpoint; deliberately compose the reviewed Wallet 6c9c2e5 URL 2.5.8/IDNA 1.1.0 and secS 254f744 security successors with fresh artifact acceptance before installed admission.",
+        "Retain the reviewed 930-source Wallet composition against actual Native cddc2366, its 149-test profiles and ordinary artifact/source mappings, the four-body/twelve-denial external checks and separate five-body wrong-input matrix per profile. Extend bounded DATA denials to full private-state/root-replacement/clock/key/CAS checks, all retaining Before/After errors, real poisoned repair/first view/mandatory second guarded reconciliation and interrupted S2/temp/tombstone/64-mask/partial-finalize/final-unlink cases. Preserve independently retained pre-call roots, exact OLD inputs/minima/full P, strict-ID and independently NEW-pinned routes, and exact actual owners on errors. Completed masks remain cleanup-only; terminal DATA cannot reconstruct acknowledgment or absent history. Keep S1 separate and deliberate S2 interval end/new original selection explicit. Qualify reached syscall error/kill/restart/exclusion/epoch progress before Wallet C/NI-01, retaining historical failures and the single physical filesystem graph.",
+        "Connect the typed facade to approved native custody using only closed operation-bound requests and public identity metadata. Keep production preparation denied until concrete qualified owner and evidence ports exist; expose no arbitrary-message signer or caller-selected qualification flag.",
+        "Credit the accepted real native service custody lifecycle and its disposable Runtime/Service tests. Keep target identity provisioning at NS-10, after installed authority qualification; source lifecycle acceptance is not target custody or permission to execute.",
+        "Implement a sealed qualified-evidence snapshot that binds the exact artifact/reader/schema, subject, key, permission, registry and revocation state, with finite validity horizons and current-state revalidation.",
+        "Implement the bounded native issuer challenge/context signer for exact Runtime, Service and reviewed result profiles. Bind audience, opcode, resource, retained request bytes/digest, nonce/session and an exclusive validity window of at most 60 seconds.",
+        "Commit Pending challenge state before exporting a challenge. Complete it transactionally and cache the exact issued packet for retry; revalidate current evidence, policy and time after I/O without extending a retained challenge or signing changed bytes.",
+        "Enforce the reviewed per-holder/global limits across pending, completed, retained and reserved rows and physical database/WAL storage. Deny quota exhaustion, clock rollback, corrupt accounting and ambiguous crash recovery without evicting unexpired evidence.",
+        "Qualify cancellation, unavailable custody, permission reload, concurrent issuer calls, crash/restart, exact retry and rotation/revocation using synthetic custody; retain byte-bound positive and negative traces."
+      ],
+      "task_ids": [
+        "demo-task-024",
+        "demo-task-030",
+        "demo-task-014"
+      ],
+      "project_ids": [
+        "demo-project-002",
+        "demo-project-004"
+      ],
+      "review": {
+        "lead": "Castalia Wallet service identity and custody architect",
+        "challenger": "secS least-privilege and adversarial authorization reviewer"
+      },
+      "exit_evidence": [
+        "Native source/API and lifecycle ADR with exact supported commands/interfaces rather than hypothetical command names.",
+        "Synthetic native issuer tests proving scope limits, no raw seed leakage, no generic signing oracle, unchanged human approval behavior and fail-closed restarts.",
+        "Crash/restart, concurrent quota reservation, exact retry, exclusive-expiry, clock-rollback and physical-storage ceiling evidence for the issuer/challenge journal; unqualified inputs never reach custody signing."
+      ]
+    },
+    {
+      "id": "NS-05",
+      "title": "Demonstration checkpoint",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "depends_on": [
+        "NS-02",
+        "NS-04"
+      ],
+      "actions": [
+        "Prepare independent public-SDK receiver and compatibility fixtures against retained helpers after NS-02 while NS-04 is implemented. Close the owner checkpoint only after testing the NS-04 issuer candidate; final installed Task/Gate acceptance occurs at NS-09 through NS-11.",
+        "Credit existing verification-only Rust helper, Runtime receiver policy/CLI loader and transaction replay/fence tests.",
+        "Exercise exact issuer-generated native commands/queries against Runtime through its public SDK; bind the whole packet hash and exact request bytes, not a JSON digest substituted for packet_hash.",
+        "Review current-policy reload and exclusive time checks after writer lock/helper delay; exact saved-command retry must revalidate current authority.",
+        "Prepare artifact-bound qualification/admission evidence and an owner-reviewed readiness consumption contract; a mode label or configuration boolean cannot clear unqualified readiness."
+      ],
+      "task_ids": [
+        "demo-task-014",
+        "demo-task-013",
+        "demo-task-012",
+        "demo-task-046"
+      ],
+      "project_ids": [
+        "demo-project-004"
+      ],
+      "review": {
+        "lead": "secS receiver and Runtime authority architect",
+        "challenger": "Transaction, replay and lease-fencing reviewer"
+      },
+      "exit_evidence": [
+        "Positive registration/work/claim/heartbeat/release/fail/complete and relevant effect/query traces.",
+        "Wrong subject/key/audience/operation/resource/request/pin/opcode, stale fence/version, expiry/revocation and replay deny before mutation.",
+        "Replay, canonical state/result/events commit atomically; failed admission rolls back.",
+        "This checkpoint closes owner implementation and prequalification checks after the NS-04 issuer candidate is available. Final installed authority acceptance remains NS-09; target identity binding and Gate 1 review remain NS-10/NS-11."
+      ]
+    },
+    {
+      "id": "NS-06",
+      "title": "Demonstration checkpoint",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "depends_on": [
+        "NS-02",
+        "NS-04"
+      ],
+      "actions": [
+        "Prepare outbound allowlists, exact retry/digest fixtures and failure classification against the public Runtime SDK after NS-02 while NS-04 is implemented. Close provider/receiver prequalification after the NS-04 issuer candidate is available; final installed acceptance remains NS-09 through NS-11. Preserve shared native pins.",
+        "Credit service-owned native verifier, bounded transport wrapper, schema-v3 replay admission and native CLI injection already present.",
+        "Qualify exact service command/query subjects, audience, descriptors, resource identities and digest against the native issuer; no runtime.* grant may authorize service.* ingress.",
+        "Implement the bounded native RuntimeAuthority provider for Service handoff/version/output/event queries; current injected port has no native implementation.",
+        "Prove source-owned outbox retries retain identical intent with fresh authority and distinguish denial, unavailable runtime and unknown commit. Full production entrypoint/poller rollout belongs to Gate 2."
+      ],
+      "task_ids": [
+        "demo-task-062",
+        "demo-task-064",
+        "demo-task-065",
+        "demo-task-067",
+        "demo-task-066",
+        "demo-task-063"
+      ],
+      "project_ids": [
+        "demo-project-015"
+      ],
+      "review": {
+        "lead": "Service ingress and outbox authority reviewer",
+        "challenger": "Domain invariants and crash/replay reviewer"
+      },
+      "exit_evidence": [
+        "Native ingress positives and hostile exact-binding/expiry/replay/revocation negatives with no source write on denial.",
+        "Service outbound allowlist and public-SDK handoff/query traces; no generic caller bearer or shared Frank authority.",
+        "Transactional replay/state/audit/result and post-preparation revalidation traces; rejected handoffs remain inspectable and recoverable.",
+        "This checkpoint closes owner implementation and prequalification checks after the NS-04 issuer candidate is available. Final installed authority acceptance remains NS-09; target identity binding and Gate 1 review remain NS-10/NS-11."
+      ]
+    },
+    {
+      "id": "NS-07",
+      "title": "Demonstration checkpoint",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "depends_on": [
+        "NS-02",
+        "NS-04"
+      ],
+      "actions": [
+        "Prepare final-normalization attestation fixtures and source-only producer/consumer compatibility checks after NS-02 while NS-04 is implemented. Close producer prequalification with the NS-04 issuer candidate and reviewed result-party contract; installed qualification and target allocation remain NS-09/NS-10.",
+        "Preserve and requalify the committed Frank verification-only port with the pinned native helper protocol; keep Runtime/Service implementation and storage outside the Frank boundary.",
+        "Implement the bounded accountable attestation producer for the exact reviewed payload: retained-work digest plus complete normalized result excluding proof, including every output/event/provider/outcome/correlation field.",
+        "Allocate the qualified result-party subject/holder and separate verifier key, with reviewed actor/integration/route/descriptor scope; requalify existing Attempt/fence/effect, deny-wins and current time/policy checks.",
+        "Requalify the committed atomic replay/terminal observation and exact observe/complete retry paths after restart; reject changed work/result bindings and retain rollback evidence.",
+        "Preserve reviewed proof renewal and immutable result/event/command history; requalify fresh-nonce renewal with native issuer-produced <=60-second contexts and deny expired or revoked retained proofs.",
+        "Requalify the committed success/failure reconciliation authority guards, exact saved-command retries and immutable committed outputs under installed native expiry/revocation/rotation.",
+        "Add the selected accountable producer attestation after transport normalization. Matrix assigns final event_id/provider_reference and Hermes currently emits unsigned results; qualify each producer path separately."
+      ],
+      "task_ids": [
+        "demo-task-024",
+        "demo-task-030",
+        "demo-task-017",
+        "demo-task-025",
+        "demo-task-015",
+        "demo-task-022"
+      ],
+      "project_ids": [
+        "demo-project-002"
+      ],
+      "review": {
+        "lead": "Native result-attestation and Frank executor reviewer",
+        "challenger": "Hostile-provider and journal recovery reviewer"
+      },
+      "exit_evidence": [
+        "Reviewed native-result profile, allocation/policy and native port/library artifacts.",
+        "Actual helper public synthetic positives and full altered field/key/pin/clock/policy/expiry/replay/restart negatives.",
+        "Invalid results cause zero runtime terminal transitions, output writes, receive cursor advancement or resend.",
+        "Explicit public-SDK enrichment/versioned work contract if ProcessVersion/hash/lease/version are directly attested; current frank.work.v1 lacks those fields.",
+        "This checkpoint closes owner implementation and prequalification checks after the NS-04 issuer candidate is available. Final installed authority acceptance remains NS-09; target identity binding and Gate 1 review remain NS-10/NS-11."
+      ]
+    },
+    {
+      "id": "NS-08",
+      "title": "Demonstration checkpoint",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "depends_on": [
+        "NS-03",
+        "NS-04",
+        "NS-05",
+        "NS-06",
+        "NS-07"
+      ],
+      "actions": [
+        "Install exact reviewed candidates through the supported direct-Mac qualification mode and provision separate synthetic subjects/custody/policy in its explicit private test roots.",
+        "Exercise stable subject continuity, new holder key activation, old key retirement, verifier-key revocation, permission expiry/deny and process restart.",
+        "Preserve historical proofs, Attempts, replay/command history and effects; do not reset fences or recycle replay identities.",
+        "Confirm file/ancestor ownership, create-only private outputs, no symlink/alias hazards, bounded helper environment/output/timeout and redacted diagnostics."
+      ],
+      "task_ids": [
+        "demo-task-024",
+        "demo-task-017",
+        "demo-task-012",
+        "demo-task-065",
+        "demo-task-063"
+      ],
+      "project_ids": [
+        "demo-project-004",
+        "demo-project-002",
+        "demo-project-015"
+      ],
+      "review": {
+        "lead": "Castalia Wallet service identity and custody architect",
+        "challenger": "secS least-privilege and adversarial authorization reviewer"
+      },
+      "exit_evidence": [
+        "Native public identity/policy manifests, bounded custody checks and lifecycle receipts for exact installed Mac artifacts.",
+        "Expired/revoked/rotated/wrong-scope calls and results deny before any runtime/service/terminal effect.",
+        "Supported backup/restore and rollback recover only the selected disposable test state; test cleanup preserves existing application custody, data and historical evidence."
+      ]
+    },
+    {
+      "id": "NS-09",
+      "title": "Demonstration checkpoint",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "depends_on": [
+        "NS-08"
+      ],
+      "actions": [
+        "Run the exact installed issuer/receiver/Frank result-verifier tuple through disposable public HTTP/SDK paths, with separate stores and zero external effects.",
+        "Use actual native credential/descriptor/caller verification at issuance; the downstream helper verifies a trusted signed context and does not independently rerun the original caller/model/provider evidence.",
+        "Cover concurrency, writer/helper delays, exact retry, restart, replay conflict, revocation/rotation, delayed results and key/policy/artifact substitutions.",
+        "Verify artifact inventories before/after; retain positive/negative traces and disclosed skips. Source-mode tests or cfg(test) keys cannot become installed production roots."
+      ],
+      "task_ids": [
+        "demo-task-012",
+        "demo-task-030",
+        "demo-task-017",
+        "demo-task-064",
+        "demo-task-063",
+        "demo-task-031",
+        "demo-task-036",
+        "demo-task-034"
+      ],
+      "project_ids": [
+        "demo-project-004",
+        "demo-project-002",
+        "demo-project-015",
+        "demo-project-003"
+      ],
+      "review": {
+        "lead": "Release artifact and isolated-runner operator",
+        "challenger": "Custody isolation and recovery SRE reviewer"
+      },
+      "exit_evidence": [
+        "Complete service-authority installed qualification report tied to exact artifacts, public policy/identity/descriptor fingerprints and fixture inputs.",
+        "All mandatory authority subcases pass with canonical state/evidence agreement and zero external sends.",
+        "Independent reviewers accept admission record structure; general production readiness remains false until later gates."
+      ]
+    },
+    {
+      "id": "NS-10",
+      "title": "Demonstration checkpoint",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "depends_on": [
+        "NS-09"
+      ],
+      "actions": [
+        "Use only the newly qualified native owner path to provision the already approved dedicated Frank command identity and native file custody; retain public subject/key identifiers and exact scoped native permissions.",
+        "Before allocating separate Service and result-attestation identities, record the reviewed role/ownership/caller/resource contract and obtain any genuinely new identity/authority decision that remains unresolved.",
+        "Keep human grant ceremonies and target admission explicit, bind to current version/time and preserve existing subjects where continuity is approved.",
+        "Do not activate production dispatch, provider credentials, new runs, legacy migration or cutover. Actual component admission/entrypoint rollout remains Gate 2 and later."
+      ],
+      "task_ids": [
+        "demo-task-024",
+        "demo-task-030",
+        "demo-task-062",
+        "demo-task-067"
+      ],
+      "project_ids": [
+        "demo-project-002",
+        "demo-project-015"
+      ],
+      "review": {
+        "lead": "Castalia Wallet service identity and custody architect",
+        "challenger": "secS least-privilege and adversarial authorization reviewer"
+      },
+      "exit_evidence": [
+        "Public target identity/custody and policy manifests from qualified native owner interfaces; private bytes remain outside evidence.",
+        "Rotation/revocation recovery instructions and accountable owner for each principal.",
+        "No unassigned identity or unsupported interface is disguised as a provisioned production path."
+      ]
+    },
+    {
+      "id": "NS-11",
+      "title": "Demonstration checkpoint",
+      "summary": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "depends_on": [
+        "NS-09",
+        "NS-10"
+      ],
+      "actions": [
+        "Lead and challenger verify original Task conditions, exact artifact/source identity, target public identity/policy bindings, installed positive/negative/lifecycle traces and all findings.",
+        "Record gate scope, target and expiry/revalidation triggers. A passed report must not assert model/provider qualification, full installed integration, workflow completion or production cutover.",
+        "Prepare handoff for Gate 2 production entrypoints and Gate 5 provider/effect recovery; keep the original 67 Tasks and canonical dependency DAG binding.",
+        "If Gate 8 is still unqualified, append truthful evidence via supported existing authority when separately authorized; do not turn a gate report into canonical workflow acceptance."
+      ],
+      "task_ids": [],
+      "project_ids": [
+        "demo-project-004",
+        "demo-project-002",
+        "demo-project-015",
+        "demo-project-003"
+      ],
+      "review": {
+        "lead": "Independent native authority qualification reviewer",
+        "challenger": "Independent Runtime, Service, Frank and Hub owners"
+      },
+      "exit_evidence": [
+        "Signed or otherwise supported native-owner qualification/admission record plus independent review disposition for exact declared scope.",
+        "Supported bounded issuer/provisioner, native Runtime/Service/Frank command/result paths and target identity/policy lifecycle are implemented and qualified.",
+        "No open blocking authority findings; production remains disabled pending subsequent gates."
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "id": "frank-command-identity-custody",
+      "title": "Demonstration checkpoint",
+      "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "state": "approved"
+    },
+    {
+      "id": "result-attestation-party",
+      "title": "Demonstration checkpoint",
+      "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "state": "proposed"
+    },
+    {
+      "id": "result-replay-renewal",
+      "title": "Demonstration checkpoint",
+      "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "state": "proposed"
+    },
+    {
+      "id": "disposable-runner",
+      "title": "Demonstration checkpoint",
+      "description": "Synthetic demonstration data; no real project status or qualification is claimed.",
+      "state": "approved"
+    }
+  ],
+  "exit_evidence": [
+    "Supported bounded native issuer and provisioning interfaces exist and preserve human Wallet fresh-consent behavior",
+    "Declared target stable subjects/custody and exact descriptor/permission/key manifests are provisioned via the qualified path",
+    "Native Runtime commands/queries, Service ingress/outbound and Frank result attestations succeed only with admitted exact bindings",
+    "All negative/replay/expiry/policy/key rotation/revocation/restart/concurrency cases pass on exact installed artifacts",
+    "Result body/proof renewal and durable replay semantics are implemented and reviewed; Matrix/Hermes transport alone grants no authority",
+    "Independent lead/challenger findings are resolved and an artifact-bound qualification/admission record is retained",
+    "No raw private keys/generic bearer/generic signing oracle in clients and zero external sends in the qualification harness",
+    "Production and subsequent gates remain independently blocked until their own exit evidence"
+  ],
+  "reviewers": [
+    {
+      "role": "Independent native authority qualification reviewer",
+      "focus": "Independent Runtime, Service, Frank and Hub owners: challenge the exact native contract, scope and evidence."
+    },
+    {
+      "role": "Castalia Wallet service identity and custody architect",
+      "focus": "secS least-privilege and adversarial authorization reviewer: challenge the exact native contract, scope and evidence."
+    },
+    {
+      "role": "Release artifact and isolated-runner operator",
+      "focus": "Custody isolation and recovery SRE reviewer: challenge the exact native contract, scope and evidence."
+    },
+    {
+      "role": "secS receiver and Runtime authority architect",
+      "focus": "Transaction, replay and lease-fencing reviewer: challenge the exact native contract, scope and evidence."
+    },
+    {
+      "role": "Service ingress and outbox authority reviewer",
+      "focus": "Domain invariants and crash/replay reviewer: challenge the exact native contract, scope and evidence."
+    },
+    {
+      "role": "Native result-attestation and Frank executor reviewer",
+      "focus": "Hostile-provider and journal recovery reviewer: challenge the exact native contract, scope and evidence."
+    }
+  ],
+  "limits": [
+    "Checkpoints describe the gate work order and current source evidence. They are not new canonical Tasks, accepted gate steps or delivery dates.",
+    "Gate 1 is service execution authority. Gate 8 is generic human Wallet/secS/Devgraph workflow qualification. Shared runner infrastructure does not combine their acceptance.",
+    "Reviewed source and installed-wheel fixture evidence do not qualify the installed native issuer, result party or target custody.",
+    "Generic human Wallet fresh interactive approval is preserved; bounded unattended service issuance requires its own implemented native interface.",
+    "No identity, key, trust, grant, provider, deployment or production changes are performed by this plan.",
+    "Production entrypoints, real provider/effect recovery, full installed integration and cutover require their subsequent gates.",
+    "Source claims and canonical workflow progress remain separate; the gate is still open.",
+    "Service-owned source composition and opt-in packaging have accepted compatibility dispositions. Custody integration may proceed within the reviewed additive boundary. Altered generic contracts or shared custody behavior still require explicit compatibility disposition; live upgrades and affected Devgraph workflow dispatch remain separate from this source acceptance.",
+    "Checkpoint prerequisites govern checkpoint closure. Independent NS-05/06/07 source preparation may begin after NS-02, while their issuer integration checks await NS-04. NS-09 supplies final installed authority evidence; no earlier checkpoint waits on NS-09 or substitutes for canonical Task acceptance.",
+    "Initial release scope approved on 16 October 2026: install and run directly on the operator\u2019s Mac and Example second Mac. macOS is the only supported target for this release. No virtual machine, restore-image download, Docker or Linux packaging is required to install or qualify this native Mac release. Admit each machine\u2019s actual macOS version and CPU architecture from tested artifacts; neither machine\u2019s compatibility is assumed. Existing broader OCI/Linux work remains unfinished and receives no completion credit. Physical-Mac harness acceptance and target enrolment remain pending; no gate pass, original Task acceptance, live installation or identity grant is created by this scope decision.",
+    "16 October scope clarification: VM tests are optional and removed from gate conditions. Component-owned direct macOS tests qualify the service pilot; the broader generic migration recorder is not a pilot dependency. No unimplemented authentication or gate acceptance is inferred.",
+    "The offline fallback is the supported CLI capture at 2026-10-16T21:00:45.157Z:100 records,67 core Tasks still not_started,33 Issue dependencies and93 read calls. Complete scoped workflow/version vectors match before and after Work/hierarchy and repeated dependency reads. The live observer can show newer captures and reports checked/capture times separately. Canonical progress changes only through supported authenticated Work operations; local implementation areas do not manufacture workflow completion."
+  ]
+}
